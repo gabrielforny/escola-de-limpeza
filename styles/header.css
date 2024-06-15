@@ -1,0 +1,19 @@
+div>a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.header-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 29px 0 0;
+
+    >.menu {
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+    }
+}
