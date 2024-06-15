@@ -4,13 +4,9 @@ a {
     line-height: 22px;
 
     &.btn-fale {
-        background: #F8C51C 0% 0% no-repeat padding-box;
         border-radius: 25px;
         width: 184px;
         height: 49px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 }
 
@@ -19,7 +15,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 29px 0 0;
+    margin: 29px 0 55px;
 
     >.menu {
         display: flex;
