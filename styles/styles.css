@@ -10,7 +10,8 @@ body * {
 }
 
 a {
-    letter-spacing: 0px;
     color: #000000;
+    cursor: pointer;
+    letter-spacing: 0px;
     opacity: 1;
 }

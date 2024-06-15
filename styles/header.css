@@ -1,7 +1,17 @@
-div>a {
+a {
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
+
+    &.btn-fale {
+        background: #F8C51C 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        width: 184px;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .header-desktop {
