@@ -77,7 +77,7 @@
 } */
 
 .invista-em-voce {
-    margin: 60px 0 101px;
+    margin: 119px 0 101px;
     display: flex;
     flex-direction: row;
     gap: 60px;
@@ -99,8 +99,43 @@
     >.col-2 {
         width: 50%;
 
-        >.btn-action-amarelo {
-            float: inline-end;
+        >.btn-explorar-curso {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 63px;
+        }
+
+        >.cards {
+            display: flex;
+            flex-direction: row;
+            column-gap: 16px;
+
+            >div {
+                border: 1px solid #4D4D4D28;
+                border-radius: 21px;
+                opacity: 1;
+                width: 332px;
+                max-height: 300px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                padding: 46px 34px 44px 45px;
+
+                >img {
+                    width: 62px;
+                    height: 62px;
+                }
+
+                >h3 {
+                    letter-spacing: -0.52px;
+                    color: #000000;
+                    font-weight: bold;
+                }
+
+                >p {
+                    color: #000000;
+                }
+            }
         }
     }
 }
