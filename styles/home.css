@@ -139,3 +139,21 @@
         }
     }
 }
+
+.horas {
+    background: #4D4D4D08 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 35px 97px 54px 96px;
+    margin-bottom: 87px;
+    
+    >div {
+        >h2,p {
+            color: #000000;
+        }
+
+    }
+}
