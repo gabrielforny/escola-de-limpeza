@@ -60,6 +60,10 @@
             opacity: 1;
             background-position: center;
             background-size: contain;
+
+            &.iniciante {
+                background: transparent url('/assets/images/curso-iniciante.png') 0 0 / cover no-repeat;
+            }
         }
     }
 }

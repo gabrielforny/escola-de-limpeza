@@ -54,12 +54,17 @@ footer {
         align-items: center;
         gap: 35px;
         margin-top: -395px;
+
         >.col-1 {
             background: #F8C51C 0% 0% no-repeat padding-box;
             border-radius: 32px;
             padding: 63px 71px 77px 103px;
             width: 714px;
             max-width: 714px;
+            height: 330px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
             >h3,
             h2 {

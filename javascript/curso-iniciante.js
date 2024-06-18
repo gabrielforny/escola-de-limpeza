@@ -1,41 +1,11 @@
 const coursesData = [
     {
-        "titulo": "Agente de Conservação e Limpeza (Do zero ao avançado)",
-        "tipo": "profissionais",
-        "image": "assets/images/agente-de-conservacao.png",
-        "preco": "R$ 400,00",
-        "desconto": "R$ 200,00",
-        "nivel": "Avançado",
-        "horas": "120 horas",
-        "porcentagemDesconto": "50% de desc"
-    },
-    {
-        "titulo": "Tratamento de Pisos (Para diversos setores)",
-        "tipo": "profissionais",
-        "image": "assets/images/tratamento-de-piso.png",
-        "preco": "R$ 500,00",
-        "desconto": "R$ 250,00",
-        "nivel": "Avançado",
-        "horas": "120 horas",
-        "porcentagemDesconto": "50% de desc"
-    },
-    {
         "titulo": "Segurança e higienização em serviços de assistência à saúde",
         "tipo": "iniciantes",
         "image": "assets/images/seguranca-e-higiene.png",
         "preco": "R$ 600,00",
         "desconto": "R$ 300,00",
         "nivel": "Essencial",
-        "horas": "120 horas",
-        "porcentagemDesconto": "50% de desc"
-    },
-    {
-        "titulo": "Otimizando o time operacional de limpeza",
-        "tipo": "empresas",
-        "image": "assets/images/otimizando-time-operacional.png",
-        "preco": "R$ 800,00",
-        "desconto": "R$ 400,00",
-        "nivel": "Avançado",
         "horas": "120 horas",
         "porcentagemDesconto": "50% de desc"
     }
