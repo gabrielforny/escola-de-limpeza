@@ -80,11 +80,11 @@ function displayCourses() {
                     </p>
             </div>
             <h3>${course.titulo}</h3>
-            <button>
-                Conhecer o curso
-                <img src="assets/icons/arrow-right.svg" alt="icone-arrow-right|"> 
-            </button>
         </div>
+        <button>
+            Conhecer o curso
+            <img src="assets/icons/arrow-right.svg" alt="icone-arrow-right|"> 
+        </button>
     `;
         coursesContainer.appendChild(courseCard);
     });
