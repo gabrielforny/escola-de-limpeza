@@ -3,9 +3,56 @@ footer {
     background: #030032 0% 0% no-repeat padding-box;
     padding: 96px 0 12px;
 
-    >section {
+    >.duvida {
+        background: #F8C51C 0% 0% no-repeat padding-box;
+        border-radius: 32px;
+        height: 335px;
+        margin-top: -250px;
+        display: flex;
+
+        >.col-1 {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 40px 0 100px;
+            width: 50%;
+
+            >h2,
+            p {
+                color: #000000;
+            }
+
+            >a {
+                background: #000000 0% 0% no-repeat padding-box;
+                color: #FFFFFF;
+                text-decoration: none;
+                width: 217px;
+                height: 67px;
+                background: #000000 0% 0% no-repeat padding-box;
+                border-radius: 34px;
+            }
+        }
+
+        >.col-2 {
+            width: 50%;
+
+            >.fundo-duvida {
+                margin-top: -50.5px;
+                width: 386px;
+                height: 386px;
+                background: transparent url(/assets/images/mulher-duvida.png) 0 0 / cover no-repeat;
+                opacity: 1;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+    }
+
+    >.menus {
         display: flex;
         gap: 45px;
+        padding-top: 96px;
 
         >.col-1 {
             width: 332px;
@@ -74,8 +121,8 @@ footer {
         border-top: 1px solid #A1B0BB36;
         display: flex;
         justify-content: center;
-        
-        >p { 
+
+        >p {
             font-size: 12px;
 
             >a {

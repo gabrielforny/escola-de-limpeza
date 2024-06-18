@@ -368,8 +368,6 @@
         >.fundo-anny {
             display: flex;
             position: absolute;
-            width: 510px;
-            height: 702px;
             background: transparent url(/assets/images/prof-limpeza.png) 0 0 / cover no-repeat;
             opacity: 1;
             background-position: center;
