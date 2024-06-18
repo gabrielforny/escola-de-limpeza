@@ -15,7 +15,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 29px 0 55px;
+    padding: 29px 0 55px;
 
     >.menu {
         display: flex;
