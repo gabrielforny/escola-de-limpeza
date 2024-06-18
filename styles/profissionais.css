@@ -1,0 +1,65 @@
+.curso-para-profissional {
+    background: #B7B7B728 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 99px 87px;
+    margin-bottom: 142px;
+
+    >.col-1 {
+        width: 50%;
+        padding-left: 30px;
+
+        >.bread-crumb {
+            font-weight: 600;
+            font-size: 14px;
+            color: #000000;
+            margin-bottom: 41px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        >h1 {
+            color: #000000;
+        }
+
+        >h3 {
+            padding: 24px 0;
+            color: #000000;
+        }
+
+        >.btn-actions {
+            align-items: center;
+            display: flex;
+            column-gap: 35px;
+            padding: 30px 0 0;
+
+            >.play-video {
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0px;
+                color: #004369;
+                opacity: 1;
+            }
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+
+        >.fundo-prof {
+            position: absolute;
+            width: 563px;
+            height: 577px;
+            background: transparent url('/assets/images/curso-profi.png') 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}
