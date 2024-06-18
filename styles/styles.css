@@ -61,6 +61,7 @@ p {
 }
 
 .btn-action-amarelo {
+    text-decoration: none;
     width: 201px;
     height: 67px;
     background: #F8C51C 0% 0% no-repeat padding-box;

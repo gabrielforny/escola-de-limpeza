@@ -64,7 +64,7 @@
                 </p>
 
                 <div class="btn-actions">
-                    <a class="btn-action-amarelo">Explore os cursos</a>
+                    <a class="btn-action-amarelo" id="explorar-cursos-1">Explore os cursos</a>
 
                     <a class="play-video">
                         <img src="assets/icons/icon-play.svg" alt="icone-play" />
@@ -94,7 +94,7 @@
 
             <div class="col-2">
                 <div class="btn-explorar-curso">
-                    <a class="btn-action-amarelo">Explore os cursos</a>
+                    <a class="btn-action-amarelo" id="explorar-cursos-2">Explore os cursos</a>
                 </div>
 
                 <div class="cards">
@@ -149,7 +149,7 @@
             </div>
         </section>
 
-        <section class="nosso-curso">
+        <section class="nosso-curso" id="nosso-curso">
             <h2>Nossos cursos</h2>
             <p style="padding-top: 29px">Uma excelente oportunidade de aprimorar conhecimentos e habilidades.</p>
             <p style="padding-bottom: 50px;">Instrutores experientes, com anos de
@@ -321,6 +321,26 @@
     <script src="javascript/contadores.js"></script>
     <script src="javascript/cursos.js"></script>
     <script src="javascript/depoimentos.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function scrollToSection(event) {
+                event.preventDefault();
+                const targetId = event.currentTarget.getAttribute("href") || "nosso-curso";
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+                }
+            }
+
+            document.getElementById("explorar-cursos-1").addEventListener("click", scrollToSection);
+            document.getElementById("explorar-cursos-2").addEventListener("click", scrollToSection);
+        });
+    </script>
+
 </body>
 
 </html>
