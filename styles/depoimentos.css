@@ -29,8 +29,14 @@
             justify-content: space-between;
 
             >.rating {
-                width: 23px;
-                height: 23px;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+
+                >.rating-star {
+                    width: 23px;
+                    height: 23px;
+                }
             }
 
             >.aspas {
