@@ -329,3 +329,53 @@
     cursor: pointer;
     margin-top: 20px;
 }
+
+.metodologia {
+    background: #030032 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 0 87px;
+    height: 608px;
+    max-height: 608px;
+    margin-top: 82px;
+
+    >.col-1 {
+        width: 50%;
+
+        >h1 {
+            font-size: 55px;
+            font-weight: bold;
+            line-height: 87px;
+
+            >span {
+                font-family: 'Corinthia', cursive;
+            }
+        }
+
+        > h3 {
+            padding: 32px 0 22px;
+        }
+
+        >a {
+            margin-top: 41px;
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+
+        >.fundo-anny {
+            display: flex;
+            position: absolute;
+            width: 510px;
+            height: 702px;
+            background: transparent url(/assets/images/prof-limpeza.png) 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+            width: 609px;
+            height: 645px;
+        }
+    }
+}
