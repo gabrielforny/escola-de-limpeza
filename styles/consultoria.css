@@ -1,0 +1,100 @@
+.consultoria-anny {
+    background: #030032 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 0 87px;
+    height: 550px;
+    max-height: 550px;
+
+    >.col-1 {
+        width: 50%;
+        padding-right: 30px;
+
+        >h3 {
+            padding: 23px 0 35px;
+        }
+
+        >.info-consultoria {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            >p {
+                display: flex;
+                gap: 5px;
+                font-size: 15px;
+
+                >img {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        >a {
+            width: 245px;
+            margin-top: 41px;
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+
+        >.fundo-prof {
+            position: absolute;
+            width: 563px;
+            height: 623px;
+            background: transparent url('/assets/images/consultoria-anny-fundo.png') 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}
+
+.solucoes {
+    margin-top: 120px;
+
+    >.info {
+        width: 55%;
+
+        >h2,
+        p {
+            color: #000000;
+        }
+
+        >p {
+            margin: 31px 0 68px;
+        }
+    }
+
+    >.cards {
+        display: flex;
+        align-items: center;
+        gap: 45px;
+
+        >div {
+            width: 332px;
+            height: 370px;
+            border: 1px solid #4D4D4D28;
+            border-radius: 21px;
+            display: flex;
+            flex-direction: column;
+            padding: 42px 33px 40px 47px;
+
+            >img {
+                width: 66px;
+                height: 66px;
+            }
+
+            h3 {
+                padding: 22px 0 15px;
+            }
+
+            >h3,
+            p {
+                color: #000000;
+            }
+        }
+    }
+}
