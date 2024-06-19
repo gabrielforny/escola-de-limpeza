@@ -1,0 +1,87 @@
+.ultimos-eventos {
+    margin-top: 146px;
+
+    >h2 {
+        color: #000000;
+        margin-bottom: 40px;
+    }
+}
+
+.cards-eventos {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.evento-card {
+    box-sizing: border-box;
+    width: 474px;
+    height: 215px;
+    border: 1px solid #4D4D4D28;
+    border-radius: 22px;
+    padding: 32px 28px 38px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    >div {
+        &.evento-details {
+            display: flex;
+            gap: 21px;
+
+            >p {
+                color: #000000;
+
+                &.hora {
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+
+                &.realizacao {
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+
+    .evento-data {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        >.evento-dia {
+            font-size: 40px;
+            line-height: 55px;
+            font-weight: bold;
+        }
+
+        >.evento-mes {
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 600;
+        }
+    }
+
+    >h3 {
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+    }
+}
+
+.evento-card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.evento-card .evento-details {
+    font-size: 14px;
+    color: #555;
+}
