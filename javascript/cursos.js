@@ -43,8 +43,11 @@ const coursesData = [
 
 const coursesContainer = document.querySelector('.courses-container');
 const filterButtons = document.querySelectorAll('.filter-button');
+const nossoCursoSection = document.getElementById('nosso-curso');
+const pageFilter = nossoCursoSection.getAttribute('data-filter') || 'all';
+
 let displayedCourses = [];
-let currentFilter = 'all';
+let currentFilter = pageFilter;
 let coursesPerPage = 6;
 let currentPage = 1;
 
@@ -56,7 +59,7 @@ function displayCourses() {
         const courseCard = document.createElement('div');
         courseCard.className = 'course-card';
         courseCard.innerHTML = `
-        <img src="${course.image}" alt="${course.titulo}" width: 394px; height: 210px;">
+        <img src="${course.image}" alt="${course.titulo}" width="394" height="210">
         <div>
             <div class="info">
                 <p>PARA ${course.tipo.toUpperCase()}</p>
@@ -67,23 +70,23 @@ function displayCourses() {
             </div>
             <div class="info-curso">
                 <p class="nivel">  
-                    <img src="assets/icons/icon-avancado.svg" alt="icone-coroa" width: 20px; height: 16px;"> 
+                    <img src="assets/icons/icon-avancado.svg" alt="icone-coroa" width="20" height="16"> 
                     ${course.nivel}
                 </p>
                 <p class="hora">
-                    <img src="assets/icons/icon-hora.svg" alt="icone-horas" width: 20px; height: 16px;"> 
+                    <img src="assets/icons/icon-hora.svg" alt="icone-horas" width="20" height="16"> 
                     ${course.horas}
                 </p>
                 <p class="desconto">
-                    <img src="assets/icons/icon-check.svg" alt="icone-check" width: 20px; height: 16px;"> 
+                    <img src="assets/icons/icon-check.svg" alt="icone-check" width="20" height="16"> 
                     ${course.porcentagemDesconto}
-                    </p>
+                </p>
             </div>
             <h3>${course.titulo}</h3>
         </div>
         <a>
             Conhecer o curso
-            <img src="assets/icons/arrow-right.svg" alt="icone-arrow-right|"> 
+            <img src="assets/icons/arrow-right.svg" alt="icone-arrow-right"> 
         </a>
     `;
         coursesContainer.appendChild(courseCard);
