@@ -113,3 +113,72 @@
         }
     }
 }
+
+.anny-rosa-consultoria {
+    background: #B7B7B728 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 0 87px;
+    height: 600px;
+    max-height: 634px;
+    margin-top: 62px;
+
+    >.col-1 {
+        width: 50%;
+        padding-right: 30px;
+
+        >h2,
+        h3,
+        p {
+            color: #000000;
+        }
+
+        >h3 {
+            padding: 8px 0 33px;
+        }
+
+        >.info-consultoria {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            >p {
+                display: flex;
+                gap: 5px;
+                font-size: 15px;
+
+                >img {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        >.experiencia {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 33px;
+
+            > div {
+                >h2 {
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+
+        >.fundo-prof {
+            position: absolute;
+            width: 570px;
+            height: 713px;
+            background: transparent url('/assets/images/consultoria-anny.png') 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}
