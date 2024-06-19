@@ -23,3 +23,41 @@ a {
         gap: 64px;
     }
 }
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #4D4D4D28;
+    border-radius: 8px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    overflow: hidden;
+    width: 223px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
