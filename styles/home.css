@@ -194,16 +194,17 @@
 
     >.col-2 {
         width: 50%;
+        padding-left: 25px;
 
         >.fundo-anny {
             display: flex;
             position: absolute;
-            background: transparent url(/assets/images/prof-limpeza.png) 0 0 / cover no-repeat;
+            background: transparent url(/assets/images/consultoria-anny.png) 0 0 / cover no-repeat;
             opacity: 1;
             background-position: center;
             background-size: contain;
-            width: 609px;
-            height: 645px;
+            height: 680px;
+            width: 580px;
         }
     }
 }
