@@ -4,8 +4,8 @@
     opacity: 1;
     display: flex;
     padding: 82px 87px 0 87px;
-    height: 605px;
-    max-height: 605px;
+    height: 530px;
+    max-height: 530px;
 
     >.col-1 {
         width: 50%;
@@ -15,7 +15,8 @@
             padding: 24px 0;
         }
 
-        >h1,h3 {
+        >h1,
+        h3 {
             color: #000000;
         }
 
@@ -23,9 +24,8 @@
             align-items: center;
             display: flex;
             column-gap: 35px;
-            padding: 30px 0 0;
 
-            > a {
+            >a {
                 text-decoration: none;
                 display: flex;
                 align-items: center;
@@ -36,5 +36,322 @@
 
     >.col-2 {
         width: 50%;
+
+        >.formulario {
+            padding: 64px 56px 56px 54px;
+            height: 672px;
+            background: #F8C51C 0% 0% no-repeat padding-box;
+            border-radius: 32px;
+            opacity: 1;
+
+            >h3 {
+                color: #000000;
+            }
+        }
     }
+}
+
+
+input,
+select {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 67px;
+    border: none;
+    padding: 0 35px;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+    letter-spacing: 0.28px;
+    color: #FFFFFF;
+
+    >p,
+    >p>a {
+        color: #000000;
+        font-size: 14px;
+        font-weight: normal;
+
+        > a{ 
+            font-weight: 600;
+        }
+    }
+}
+
+textarea {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 54px;
+    height: 61px;
+    border: none;
+    padding: 0 35px;
+
+    &.textarea-input {
+        height: 182px;
+        border-radius: 10px;
+        padding: 20px 35px;
+    }
+}
+
+.formulario {
+    background: transparent linear-gradient(180deg, #B61350 0%, #7F217D 100%) 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    padding: 40px 0 0;
+    max-width: 684px;
+
+    >h5 {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 26px;
+    }
+
+    >form {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0 0;
+    }
+}
+
+.new-letter-whatsapp {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #B61350;
+    border-radius: 31px 0px 31px 31px;
+    padding: 57px 90px;
+    margin: 36px 0;
+    display: flex;
+    align-items: center;
+    column-gap: 256px;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+.btn-whatsapp {
+    width: 294px;
+    height: 74px;
+}
+
+.endereco-telefone {
+    display: flex;
+    gap: 16px;
+
+    >.telefones,
+    .endereco {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 3px solid #F1F1F1;
+        border-radius: 29px 0px 29px 29px;
+        padding: 42px 58px;
+
+        width: 720px;
+        max-width: 720px;
+        max-height: 280px;
+
+        >h5,
+        div>h5 {
+            margin: 0 0 36px 0;
+            font-size: 32px;
+            font-weight: 500;
+
+            &.title-endereco {
+                margin: 0;
+            }
+        }
+
+        >a {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #000000;
+        }
+
+        >div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 36px;
+
+            >a {
+                cursor: pointer;
+                background: transparent;
+                padding: 10px 20px;
+                border: 2px solid #B61350;
+                border-radius: 37px;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0px;
+                color: #B61350;
+            }
+        }
+
+    }
+}
+
+.mais-solucoes {
+    align-items: center;
+    padding: 79px 0 121px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.butoes>a {
+    padding: 0;
+    justify-content: center;
+
+    &.btn-gestao {
+        width: 290px;
+        height: 74px;
+    }
+
+    &.btn-consultoria {
+        width: 235px;
+        height: 74px;
+    }
+
+    &.btn-telemedicina {
+        width: 250px;
+        height: 74px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-checkbox {
+        font-size: 12px;
+    }
+
+    .page-sec {
+        padding-bottom: 80px !important;
+
+        >.secao-1 {
+            flex-direction: column !important;
+
+            >div {
+                width: 100%;
+
+                >h2 {
+                    text-align: center;
+                    font-size: 32px;
+                    padding: 50px 0 5px;
+                }
+
+                >p {
+                    text-align: center;
+                    font-size: 18px;
+
+                    &.text {
+                        font-size: 18px;
+                    }
+                }
+
+                &.coluna-1 {
+                    padding-top: 10px !important;
+                    padding-bottom: 40px;
+                }
+
+                &.coluna-2 {
+                    >form {
+                        >fieldset {
+
+                            >input,
+                            textarea {
+                                width: 69%;
+                            }
+
+                            &.isMobile {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        >.new-letter-whatsapp {
+            padding: 40px !important;
+            flex-direction: column;
+            align-items: center;
+
+            >div {
+                >h4 {
+                    text-align: center;
+                    font-size: 25px;
+                    line-height: normal;
+                }
+
+                >p {
+                    text-align: center;
+                    font-size: 18px;
+                }
+
+                >a {
+                    margin-top: 36px;
+                }
+            }
+        }
+
+        >.endereco-telefone {
+            flex-direction: column;
+
+            >div {
+                width: 73%;
+                padding: 40px !important;
+
+                >h5,
+                div>h5 {
+                    text-align: center;
+                    font-size: 26px;
+                }
+
+                >div {
+                    flex-wrap: wrap;
+                    gap: 32px;
+                    justify-content: center;
+                }
+
+                >.link-endereco {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    text-align: center;
+                }
+            }
+        }
+
+        >.mais-solucoes {
+            padding: 79px 0 80px 0;
+
+            >h2 {
+                text-align: center;
+                font-size: 26px;
+            }
+
+            >.butoes {
+                justify-content: center;
+                gap: 36px;
+            }
+        }
+    }
+}
+
+.btn-cadastro {
+    cursor: pointer;
+    height: 67px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 34px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

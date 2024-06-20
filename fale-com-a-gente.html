@@ -67,7 +67,7 @@
                     Quem falar com a Escola de Limpeza? Estamos esperando o seu contato.
                 </h3>
 
-                <h3>Ligue para a gente:</h3>
+                <h3 style="padding: 145px 0 29px;">Ligue para a gente:</h3>
                 <div class="btn-actions">
                     <a class="whatsapp" href="tel:+55 (00) 0000-0000">
                         <img src="assets/icons/icon-whatsapp-azul.svg" alt="icone-whatsapp" />
@@ -82,12 +82,54 @@
             </div>
 
             <div class="col-2">
+                <div class="formulario">
+                    <h3>Envie um e-mail</h3>
 
+                    <form id="contactForm" id="contactForm" method="post" action="send_email_fale_com_a_gente.php">
+
+                        <input type="text" placeholder="Seu nome*" id="nome" name="nome" required>
+
+                        <input type="email" placeholder="Seu e-mail*" id="email" name="email" required>
+
+                        <input type="text" placeholder="Seu telefone*" id="telefone" required name="telefone">
+
+
+                        <textarea class="textarea-input" id="comoAjudar" placeholder="Deixe sua mensagem*"
+                            name="comoAjudar" required></textarea>
+
+
+                        <button class="btn-cadastro no-loading move-houver" id="submitBtn" style="margin-top: 17px;">
+                            Iniciar meu cadastro
+                        </button>
+
+                        <button class="btn-cadastro loading" id="submitBtn" style="display: none; margin-top: 17px;">
+                            Enviando formulário...
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+
+                        <label class="custom-checkbox">
+                            <input type="checkbox" id="termos" name="termos">
+                            <span class="checkmark"></span>
+                            <p>
+                                Eu li e aceito os termos e condições da <a class="politicas"
+                                    href="/politica-privacidade">Política de
+                                    Privacidade.</a>
+                            </p>
+                        </label>
+
+                    </form>
+                    <div class="messagem-sucesso" style="display: none;">
+                        <i class="fa-regular fa-circle-check" style="color: #FFF; font-size: 27px;"></i>
+                        <p>Parabéns! Estamos quase lá. Por favor, verifique seu e-mail. Enviamos um link para você
+                            concluir
+                            seu cadastro.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer style="margin-top: 180px;">
         <section class="sec-page menus">
             <div class="col-1">
                 <a href="/">
