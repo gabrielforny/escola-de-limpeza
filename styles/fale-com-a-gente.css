@@ -53,6 +53,43 @@
 
 
 input,
+textarea,
+button {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Estiliza os placeholders para os navegadores Webkit (Chrome, Safari, etc.) */
+::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Estiliza os placeholders para o Firefox */
+::-moz-placeholder {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Estiliza os placeholders para o Internet Explorer */
+:-ms-input-placeholder {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Estiliza os placeholders para o Edge */
+::-ms-input-placeholder {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Estiliza os placeholders para o restante dos navegadores */
+::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input,
 select {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
@@ -75,7 +112,7 @@ select {
         font-size: 14px;
         font-weight: normal;
 
-        > a{ 
+        >a {
             font-weight: 600;
         }
     }

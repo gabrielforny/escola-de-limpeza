@@ -196,29 +196,7 @@
         </section>
     </footer>
 
-    <script src="javascript/contadores.js"></script>
-    <script src="javascript/cursos.js"></script>
-    <script src="javascript/depoimentos.js"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            function scrollToSection(event) {
-                event.preventDefault();
-                const targetId = event.currentTarget.getAttribute("href") || "nosso-curso";
-                const targetElement = document.getElementById(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: "smooth"
-                    });
-                }
-            }
-
-            document.getElementById("explorar-cursos-1").addEventListener("click", scrollToSection);
-            document.getElementById("explorar-cursos-2").addEventListener("click", scrollToSection);
-        });
-    </script>
-
+    <script src="javascript/fale-conosco"></script>
 </body>
 
 </html>
