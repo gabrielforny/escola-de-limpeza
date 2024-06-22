@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.svg" />
+    <title>Escola de limpeza - Segurança e Higienização</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/agente-conservacao.css" />
+    <link rel="stylesheet" href="styles/faq.css" />
+    <link rel="stylesheet" href="styles/depoimentos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/5511930394719?text=Olá!%20Gostaria%20de%20saber%20mais%20informações" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+</head>
+
+<body>
+    <header class="header-desktop sec-page">
+        <div class="logo">
+            <a href="/">
+                <img src="assets/images/logo-escola.svg" alt="logo-escola.svg" />
+            </a>
+        </div>
+        <div class="menu">
+            <div class="dropdown">
+                <a class="dropbtn">A Escola
+                    <img src="assets/icons/arrow-icon.svg" alt="arrow-icon" />
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Quem Somos</a>
+                    <a href="#">Método Anny Rosa</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="dropbtn">Nossos Cursos
+                    <img src="assets/icons/arrow-icon.svg" alt="arrow-icon" />
+                </a>
+                <div class="dropdown-content">
+                    <a href="/para-profissionais.html">Para Profissionais</a>
+                    <a href="/para-iniciantes.html">Para Iniciantes</a>
+                    <a href="/para-empresas.html">Para Empresas</a>
+                    <a href="/consultoria.html">Consultoria Anny Rosa</a>
+                    <a href="/palestras.html">Palestras</a>
+                </div>
+            </div>
+            <a href="/consultoria.html">Consultoria</a>
+            <a href="/palestras.html">Palestras</a>
+        </div>
+        <a class="btn-fale btn-action-amarelo" href="/fale-com-a-gente.html">Fale com a gente</a>
+    </header>
+
+    <main class="sec-page">
+
+        <section class="curso-para-profissional">
+            <div class="col-1">
+                <p class="bread-crumb">
+                    <span>HOME</span>
+                    <span>></span>
+                    <span>CURSOS</span>
+                    <span>></span>
+                    <span>PARA INICIANTES</span>
+                </p>
+
+                <h1>
+                    Segurança e higienização em serviços de assistência à saúde
+                </h1>
+
+                <div class="info-curso">
+                    <p>
+                        <img src="/assets/icons/icon-coroa.svg" alt="icone-coroa" />
+                        Avançado
+                    </p>
+
+                    <p>
+                        <img src="/assets/icons/icon-hora.svg" alt="icone-hora" />
+                        120 horas
+                    </p>
+
+                    <p>
+                        <img src="/assets/icons/icon-check.svg" alt="icone-relogio" />
+                        50% de desc
+                    </p>
+                </div>
+
+                <div class="btn-actions">
+                    <h3 class="preco-real">R$ 00,00</h3>
+                    <h3 class="desconto">R$ 00,00</h3>
+                    <a class="btn-action-amarelo">Quero me inscrever</a>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="fundo-prof seguranca-higienizacao">
+                </div>
+            </div>
+        </section>
+        <section class="inscricao">
+            <form id="contactForm" id="contactForm" method="post" action="send_email_fale_com_a_gente.php">
+                <div class="campos">
+                    <input type="text" placeholder="Seu nome*" id="nome" name="nome" required>
+                    <input type="email" placeholder="Seu e-mail*" id="email" name="email" required>
+                    <input type="text" placeholder="Seu telefone*" id="telefone" required name="telefone">
+                    <button class="btn-cadastro no-loading move-houver" id="submitBtn">
+                        Fazer minha inscrição
+                    </button>
+
+                    <button class="btn-cadastro loading" id="submitBtn" style="display: none;">
+                        Enviando formulário...
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </button>
+                </div>
+
+                <label class="custom-checkbox">
+                    <input type="checkbox" id="termos" name="termos">
+                    <span class="checkmark"></span>
+                    <p>
+                        Eu li e aceito os termos e condições da <a class="politicas"
+                            href="/politica-privacidade">Política de Privacidade.</a>
+                    </p>
+                </label>
+
+            </form>
+        </section>
+
+        <section class="treinamento">
+            <div class="col-1">
+                <h2>Treinamento feito para você!</h2>
+                <div class="lista">
+                    <p>
+                        <img src="/assets/icons/icon-check.svg" alt="icone-relogio" />
+                        Profissionais Operacionais: Aprimore sua qualificação técnica para se destacar no mercado de
+                        trabalho com temas práticos e exercícios específicos.
+                    </p>
+
+                    <p>
+                        <img src="/assets/icons/icon-check.svg" alt="icone-relogio" />
+                        Profissionais Operacionais: Aprimore sua qualificação técnica para se destacar no mercado de
+                        trabalho com temas práticos e exercícios específicos.
+                    </p>
+
+                    <p>
+                        <img src="/assets/icons/icon-check.svg" alt="icone-relogio" />
+                        Profissionais Operacionais: Aprimore sua qualificação técnica para se destacar no mercado de
+                        trabalho com temas práticos e exercícios específicos.
+                    </p>
+
+                    <p>
+                        <img src="/assets/icons/icon-check.svg" alt="icone-relogio" />
+                        Profissionais Operacionais: Aprimore sua qualificação técnica para se destacar no mercado de
+                        trabalho com temas práticos e exercícios específicos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div>
+                    <img src="/assets/icons/icone-formato.svg" alt="icone-computador" />
+                    <h3>Formato</h3>
+                    <div class="lista-info">
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            Treinamento 100% online
+                        </p>
+
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            Aulas gravadas
+                        </p>
+
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            Exercícios práticos
+                        </p>
+
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            Feedback individualizado
+                        </p>
+
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            Certificado de conclusão
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/assets/icons/icone-calendario.svg" alt="icone-calendario" />
+                    <h3>Duração</h3>
+                    <div class="lista-info">
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            12 horas de aula
+                        </p>
+
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            4 horas de consultoria
+                        </p>
+
+                        <p>
+                            <img src="/assets/icons/icon-seta-direita.svg" alt="icone-seta" />
+                            3 semanas
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="conteudo-curso">
+            <h2>Conteúdo do curso</h2>
+            <div class="linha">
+                <div class="col-1">
+                    <img src="/assets/images/conteudo-curso-higienizacao.png" alt="homem-limpando" />
+
+                    <p>Nosso programa estimula o desenvolvimento de habilidades práticas, preparando você para se
+                        destacar
+                        neste mercado em crescimento. Ao se qualificar, você não só aumenta suas oportunidades de
+                        emprego e
+                        renda, mas também contribui para ambientes mais seguros, econômicos e de melhor qualidade para
+                        empresas e instituições contratantes.</p>
+                    <p style="padding: 24px 0;"> O profissional de limpeza e conservação desempenha um papel
+                        vital na manutenção da limpeza e segurança dos ambientes, incluindo a coleta e acondicionamento
+                        de
+                        resíduos. Ele trabalha em diversos locais, como condomínios, empresas, comércios, indústrias e
+                        hospitais, seguindo normas de segurança específicas para cada ambiente.
+                    </p>
+                    <p> A ESCOLA DE LIMPEZA
+                        qualifica profissionais com domínio técnico-científico, visão crítica e atitude empreendedora,
+                        sustentável e colaborativa. Esta formação integral inclui aspectos relacionados ao mundo do
+                        trabalho
+                        e cidadania, incentivando o comprometimento com a qualidade do trabalho e a transformação da
+                        sociedade.</p>
+                </div>
+
+                <div class="col-2">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h3>Módulo 1: Organização e Processos de Trabalho (Carga horária: 04 horas)</h3>
+                                <img class="accordion-icon" src="/assets/icons/icon-plus-faq.svg" alt="icon-plus" />
+                            </div>
+                            <div class="accordion-content">
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        01:</span>
+                                    Introdução à Higienização Profissional</p>
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        02:</span>
+                                    Elementos da Competência</p>
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        03:</span>
+                                    Elementos da Competência</p>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h3>Módulo 2: Procedimentos de Limpeza e Conservação (Carga horária: 06 horas)</h3>
+                                <img class="accordion-icon" src="/assets/icons/icon-plus-faq.svg" alt="icon-plus" />
+                            </div>
+                            <div class="accordion-content">
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        01:</span>
+                                    Introdução à Limpeza Profissional</p>
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        02:</span>
+                                    Procedimentos de Conservação</p>
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        03:</span>
+                                    Técnicas de Limpeza</p>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h3>Módulo 3: Coleta Seletiva e Armazenamento de Resíduos (Carga horária: 02 horas)</h3>
+                                <img class="accordion-icon" src="/assets/icons/icon-plus-faq.svg" alt="icon-plus" />
+                            </div>
+                            <div class="accordion-content">
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        01:</span>
+                                    Introdução à Coleta Seletiva</p>
+                                <p><img src="/assets/icons/icon-seta-direita.svg" alt="icon-seta-direita" /> <span>Aula
+                                        02:</span>
+                                    Armazenamento de Resíduos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="metodologia">
+            <div class="col-1">
+                <h1>
+                    Metodologia <span>Anny Rosa</span>
+                </h1>
+
+                <h3>
+                    Aprenda com uma das mais conceituadas consultorias de higienização do Brasil
+                </h3>
+
+                <p>
+                    Utilizamos metodologias de ensino variadas, como aulas expositivas, atividades práticas, estudos de
+                    caso e simulações. Dessa forma, conseguimos engajar os colaboradores e facilitar a compreensão dos
+                    conteúdos. Sempre de adaptamos as metodologias ao perfil e necessidades da equipe.
+                </p>
+
+                <h3 class="certificado-conclusao">
+                    <img src="/assets/icons/icon-check-vazado.svg" alt="icon-check-vazado" />
+                    Você garante o Certificado de Conclusão
+                </h3>
+            </div>
+
+            <div class="col-2">
+                <div class="fundo-anny">
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre-nos">
+            <div class="topo">
+                <h2>O que falam sobre a gente</h2>
+                <div class="setas-navegacao">
+                    <a class="arrow-left">
+                        <img src="assets/icons/arrow-right.svg" alt="icone-arrow-left">
+                    </a>
+                    <a class="arrow-right">
+                        <img src="assets/icons/arrow-right.svg" alt="icone-arrow-right">
+                    </a>
+                </div>
+            </div>
+            <div class="depoimentos-container">
+                <div class="depoimentos"></div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <h2>Perguntas frequentes</h2>
+            <div class="faq-container"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="sec-page duvida">
+            <div class="col-1">
+                <h2>Ficou alguma dúvida?</h2>
+                <p style="padding: 17px 0;">Calma, nós temos uma equipe inteira preparada para responder qualquer
+                    pergunta no WhatsApp. Só
+                    pressionar o botão abaixo e nos chamar.</p>
+                <a class="btn-fale btn-action-amarelo" href="/">Quero tirar dúvidas</a>
+            </div>
+
+            <div class="col-2">
+                <div class="fundo-duvida">
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-page menus">
+            <div class="col-1">
+                <a href="/">
+                    <img src="assets/images/logo-escola-branca.svg" alt="logo-escola" />
+                </a>
+                <p style="padding-top: 32px;">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever.
+                </p>
+
+                <div class="redes-sociais">
+                    <a href="/linkedin" target="_blank">
+                        <img src="assets/icons/icon-linkedin.svg" alt="logo-linkedin" class="linkedin" />
+                    </a>
+                    <a href="/youtube" target="_blank">
+                        <img src="assets/icons/icon-youtube.svg" alt="logo-youtube" class="youtube" />
+                    </a>
+                    <a href="/instagram" target="_blank">
+                        <img src="assets/icons/icon-insta.svg" alt="logo-insta" class="instagram" />
+                    </a>
+                </div>
+
+                <p class="copy">
+                    Copyright© 2024 Escola de Limpeza. Todos os direitos reservados.
+                </p>
+            </div>
+
+            <div class="col-2">
+                <p class="title">Institucional</p>
+                <div class="links">
+                    <a href="/">Quem Somos</a>
+                    <a href="/">Método Anny Rosa</a>
+                    <a href="/">Politica de Privacidade</a>
+                    <a href="/">Cookies</a>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <p class="title">Oferecemos</p>
+                <div class="links">
+                    <a href="/para-profissionais.html">Cursos para Profissionais</a>
+                    <a href="/para-iniciantes.html">Cursos para Iniciantes</a>
+                    <a href="/para-empresas.html">Cursos para Empresas</a>
+                    <a href="/consultoria.html">Consultoria Anny Rosa</a>
+                    <a href="/palestras.html">Palestras</a>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <p class="title">Comunicação</p>
+                <div class="links">
+                    <a href="/fale-com-a-gente.html">Fale com a gente</a>
+                    <a href="/">Perguntas Frequentes</a>
+                    <a class="telefone" href="tel:551100000000">+55 11 0000-0000</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="desenvolvido-por">
+            <p>
+                Desenvolvimento:
+                <a href="https://agpublick.com.br/" target="_blank">agpublick.com.br</a>
+            </p>
+        </section>
+    </footer>
+
+    <script src="javascript/contadores-consultoria.js"></script>
+    <script src="javascript/cursos.js"></script>
+    <script src="javascript/depoimentos.js"></script>
+    <script src="javascript/faq.js"></script>
+    <script src="javascript/agente-conservacao.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function scrollToSection(event) {
+                event.preventDefault();
+                const targetId = event.currentTarget.getAttribute("href") || "nosso-curso";
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+                }
+            }
+
+            document.getElementById("explorar-cursos-1").addEventListener("click", scrollToSection);
+            document.getElementById("explorar-cursos-2").addEventListener("click", scrollToSection);
+        });
+    </script>
+
+</body>
+
+</html>
