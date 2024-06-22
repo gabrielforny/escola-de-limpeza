@@ -78,6 +78,12 @@
                 height: 615px;
                 background: transparent url('/assets/images/seguranca-e-higienizaca.png') 0 0 / cover no-repeat;
             }
+
+            &.otimizando-time-limpeza {
+                height: 506px;
+                background: transparent url('/assets/images/otimizando-time-limpeza.png') 0 0 / cover no-repeat;
+
+            }
         }
     }
 }
@@ -248,6 +254,27 @@
                 width: 100%;
                 margin-bottom: 40px;
             }
+
+            >p {
+                color: #000;
+            }
+        }
+    }
+
+    &.otimizando-time {
+        display: flex;
+        gap: 103px;
+
+        >.coluna-img {
+            width: 50%;
+            >img {
+                width: 100%
+            }
+
+        }
+
+        >.col-1 {
+            width: 50%;
 
             >p {
                 color: #000;
