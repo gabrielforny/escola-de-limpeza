@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.svg" />
-    <title>Escola de limpeza - Para Profissionais</title>
+    <title>Escola de limpeza - Agente de conservação e limpeza</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/profissionais.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/faq.css" />
     <link rel="stylesheet" href="styles/depoimentos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
@@ -55,45 +55,9 @@
         </div>
         <a class="btn-fale btn-action-amarelo" href="/fale-com-a-gente.html">Fale com a gente</a>
     </header>
+
     <main class="sec-page">
-        <section class="curso-para-profissional">
-            <div class="col-1">
-                <p class="bread-crumb">
-                    <span>HOME</span>
-                    <span>></span>
-                    <span>CURSOS</span>
-                    <span>></span>
-                    <span>PARA PROFISSIONAIS</span>
-                </p>
-
-                <h1>
-                    Cursos para Profissionais
-                </h1>
-
-                <h3>
-                    Domine as técnicas, normas e especificações do mercado de higienização profissional.
-                </h3>
-
-                <div class="btn-actions">
-                    <a class="btn-action-amarelo" id="explorar-cursos-1">Explore os cursos</a>
-
-                    <a class="play-video">
-                        <img src="assets/icons/icon-play-azul.svg" alt="icone-play" />
-                        Assista ao vídeo</a>
-                </div>
-            </div>
-
-            <div class="col-2">
-                <div class="fundo-prof">
-                </div>
-            </div>
-        </section>
-
-        <section class="nosso-curso" id="nosso-curso" data-filter="profissionais">
-            <div class="courses-container">
-                <!-- Os cursos serão inseridos aqui pelo JavaScript -->
-            </div>
-        </section>
+  
 
         <section class="sobre-nos">
             <div class="topo">
@@ -112,23 +76,27 @@
             </div>
         </section>
 
+        <section class="faq">
+            <h2>Perguntas frequentes</h2>
+            <div class="faq-container"></div>
+        </section>
+
     </main>
 
     <footer>
 
-        <section class="sec-page cursos-footer">
+        <section class="sec-page duvida">
             <div class="col-1">
-                <h2>Cursos para Iniciantes</h2>
-                <h3>Uma base sólida de conhecimentos essenciais para profissionais que atuam
-                    nesse setor crucial.</h3>
-                <a class="btn-action-amarelo" href="/para-iniciantes.html">Explore os cursos</a>
+                <h2>Ficou alguma dúvida?</h2>
+                <p style="padding: 17px 0;">Calma, nós temos uma equipe inteira preparada para responder qualquer
+                    pergunta no WhatsApp. Só
+                    pressionar o botão abaixo e nos chamar.</p>
+                <a class="btn-fale btn-action-amarelo" href="/">Quero tirar dúvidas</a>
             </div>
 
-            <div class="col-1">
-                <h2>Cursos para Empresas</h2>
-                <h3>Reduza custos operacionais, aumente sua eficiência e profissionalize sua
-                    equipe.</h3>
-                <a class="btn-action-amarelo" href="/para-empresas.html">Explore os cursos</a>
+            <div class="col-2">
+                <div class="fundo-duvida">
+                </div>
             </div>
         </section>
 
@@ -198,8 +166,10 @@
         </section>
     </footer>
 
+    <script src="javascript/contadores-consultoria.js"></script>
     <script src="javascript/cursos.js"></script>
     <script src="javascript/depoimentos.js"></script>
+    <script src="javascript/faq.js"></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -216,6 +186,7 @@
             }
 
             document.getElementById("explorar-cursos-1").addEventListener("click", scrollToSection);
+            document.getElementById("explorar-cursos-2").addEventListener("click", scrollToSection);
         });
     </script>
 
