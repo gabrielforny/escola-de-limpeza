@@ -135,17 +135,58 @@
             justify-content: center;
             letter-spacing: 0.28px;
             color: #FFFFFF;
-        
+
             >p,
             >p>a {
                 color: #FFFFFF;
                 font-size: 14px;
                 font-weight: normal;
-        
+
                 >a {
+                    text-decoration: underline;
                     font-weight: 600;
                 }
             }
         }
     }
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox .checkmark {
+    width: 20px;
+    height: 19px;
+    background-color: transparent;
+    border: 2px solid #FFC107;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+.checkmark:after {
+    content: '';
+    position: absolute;
+    left: 6.5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #FFC107;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.custom-checkbox p {
+    margin: 0;
+}
+
+.custom-checkbox a.politicas {
+    color: #FFC107;
+    text-decoration: none;
+}
+
+.custom-checkbox a.politicas:hover {
+    text-decoration: underline;
 }
