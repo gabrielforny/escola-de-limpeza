@@ -291,6 +291,70 @@
     text-decoration: underline;
 }
 
+.metodologia {
+    background: #030032 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 0 87px;
+    height: 550px;
+    max-height: 550px;
+    margin-top: 161px;
+
+    >.col-1 {
+        width: 50%;
+
+        >h1 {
+            font-size: 55px;
+            font-weight: bold;
+            line-height: 87px;
+
+            >span {
+                font-family: 'Corinthia', cursive;
+            }
+        }
+
+        >h3 {
+            padding: 32px 0 22px;
+
+            &.certificado-conclusao {
+                padding: 51px 0 0;
+                color: #009CC0;
+                display: flex;
+                align-items: center;
+                font-size: 23px;
+                line-height: 34px;
+                font-weight: normal;
+                gap: 14px;
+
+                >img {
+                    width: 41px;
+                    height: 41px;
+                }
+            }
+        }
+
+        >a {
+            margin-top: 41px;
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+        padding-left: 25px;
+
+        >.fundo-anny {
+            display: flex;
+            position: absolute;
+            background: transparent url(/assets/images/consultoria-anny.png) 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+            height: 680px;
+            width: 580px;
+        }
+    }
+}
 
 
 
@@ -308,9 +372,19 @@
     border: 1px solid #4D4D4D28;
     border-radius: 22px;
 
-    > hr {
+    >hr {
         margin: 28px 0 35px;
+        border: 1px solid #4D4D4D28;
+        opacity: 1;
     }
+}
+
+.accordion-header.active>img {
+    transform: rotate(180deg);
+}
+
+.accordion-header>img {
+    transition: transform 0.3s;
 }
 
 .accordion-header {
@@ -346,6 +420,11 @@
         align-items: center;
         gap: 13px;
         color: #000;
+
+        >img {
+            width: 22px;
+            height: 22px;
+        }
 
         >span {
             font-weight: bold;
