@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/agente-conservacao.css" />
     <link rel="stylesheet" href="styles/faq.css" />
     <link rel="stylesheet" href="styles/depoimentos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
@@ -57,7 +58,75 @@
     </header>
 
     <main class="sec-page">
-  
+
+        <section class="curso-para-profissional">
+            <div class="col-1">
+                <p class="bread-crumb">
+                    <span>HOME</span>
+                    <span>></span>
+                    <span>CURSOS</span>
+                    <span>></span>
+                    <span>PARA PROFISSIONAIS</span>
+                </p>
+
+                <h1>
+                    Agente de Conservação e Limpeza - Do zero ao avançado
+                </h1>
+
+                <div class="info-curso">
+                    <p>
+                        Avançado
+                    </p>
+
+                    <p>
+                        120 horas
+                    </p>
+
+                    <p>
+                        50% de desc
+                    </p>
+                </div>
+
+                <div class="btn-actions">
+                    <h3 class="preco-real">R$ 00,00</h3>
+                    <h3 class="desconto">R$ 00,00</h3>
+                    <a class="btn-action-amarelo">Quero me inscrever</a>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="fundo-prof">
+                </div>
+            </div>
+        </section>
+        <section class="inscricao">
+            <form id="contactForm" id="contactForm" method="post" action="send_email_fale_com_a_gente.php">
+                <div class="campos">
+                    <input type="text" placeholder="Seu nome*" id="nome" name="nome" required>
+                    <input type="email" placeholder="Seu e-mail*" id="email" name="email" required>
+                    <input type="text" placeholder="Seu telefone*" id="telefone" required name="telefone">
+                    <button class="btn-cadastro no-loading move-houver" id="submitBtn">
+                        Fazer minha inscrição
+                    </button>
+
+                    <button class="btn-cadastro loading" id="submitBtn" style="display: none;">
+                        Enviando formulário...
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </button>
+                </div>
+
+                <label class="custom-checkbox">
+                    <input type="checkbox" id="termos" name="termos">
+                    <span class="checkmark"></span>
+                    <p>
+                        Eu li e aceito os termos e condições da <a class="politicas"
+                            href="/politica-privacidade">Política de
+                            Privacidade.</a>
+                    </p>
+                </label>
+
+            </form>
+        </section>
 
         <section class="sobre-nos">
             <div class="topo">
@@ -84,7 +153,6 @@
     </main>
 
     <footer>
-
         <section class="sec-page duvida">
             <div class="col-1">
                 <h2>Ficou alguma dúvida?</h2>

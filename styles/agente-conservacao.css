@@ -1,0 +1,151 @@
+.curso-para-profissional {
+    background: #B7B7B728 0% 0% no-repeat padding-box;
+    border-radius: 28px 28px 0px 0px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 99px 87px;
+
+    >.col-1 {
+        width: 50%;
+        padding-right: 30px;
+
+        >.bread-crumb {
+            font-weight: 600;
+            font-size: 14px;
+            color: #000000;
+            margin-bottom: 41px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        >h1 {
+            color: #000000;
+        }
+
+        >.info-curso {
+            display: flex;
+            align-items: center;
+            margin: 30px 0 54px;
+
+            >p {
+                color: #030032;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+            }
+        }
+
+        >.btn-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            >h3 {
+                letter-spacing: 0px;
+                color: #000000;
+
+                &.preco-real {
+                    text-decoration: line-through;
+                }
+
+                &.desconto {
+                    font-weight: bold;
+                    font-size: 44px;
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+
+        >.fundo-prof {
+            position: absolute;
+            width: 563px;
+            height: 566px;
+            background: transparent url('/assets/images/agente-conservacao.png') 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}
+
+.inscricao {
+    height: 196px;
+    background: #030032 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 24px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 87px 28px;
+
+    >form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+
+        >.campos {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+
+            >input {
+                padding: 15px 30px 15px 30px;
+                width: 196px;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border: 2px solid #F8C51C;
+                border-radius: 10px;
+                opacity: 1;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 36px;
+                letter-spacing: 0.36px;
+
+                &::placeholder {
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    letter-spacing: 0.36px;
+                }
+            }
+
+            >button {
+                cursor: pointer;
+                width: 245px;
+                height: 67px;
+                background: #F8C51C 0% 0% no-repeat padding-box;
+                border-radius: 34px;
+                opacity: 1;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                color: #030032;
+            }
+        }
+
+        >.custom-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            justify-content: center;
+            letter-spacing: 0.28px;
+            color: #FFFFFF;
+        
+            >p,
+            >p>a {
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: normal;
+        
+                >a {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
