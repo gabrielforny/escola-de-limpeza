@@ -287,11 +287,11 @@ p {
     line-height: 40px;
   }
 
-  h3 {
-    font-size: 20px;
+  h2 {
+    font-size: 28px;
   }
 
-  p {
-    font-size: 14px;
+  h3 {
+    font-size: 20px;
   }
 }
