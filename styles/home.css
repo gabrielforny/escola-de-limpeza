@@ -1,67 +1,68 @@
 .torne-se-expert {
-    background: #030032 0% 0% no-repeat padding-box;
-    border-radius: 28px;
-    opacity: 1;
-    display: flex;
-    padding: 82px 87px 0 87px;
-    height: 726px;
-    max-height: 726px;
+  background: #030032 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+  display: flex;
+  padding: 82px 87px 0 87px;
+  height: 726px;
+  max-height: 726px;
 
-    >.col-1 {
-        width: 50%;
-        padding-right: 30px;
+  > .col-1 {
+    width: 50%;
+    padding-right: 30px;
 
-        >h3 {
-            padding: 24px 0;
-        }
-
-        >.btn-actions {
-            align-items: center;
-            display: flex;
-            column-gap: 35px;
-            padding: 30px 0 0;
-
-            >.play-video {
-                display: flex;
-                align-items: center;
-                gap: 11px;
-                font-weight: bold;
-                font-size: 16px;
-                line-height: 22px;
-                letter-spacing: 0px;
-                color: #FFFFFF;
-                opacity: 1;
-            }
-        }
+    > h3 {
+      padding: 24px 0;
     }
 
-    >.col-2 {
-        width: 50%;
+    > .btn-actions {
+      align-items: center;
+      display: flex;
+      column-gap: 35px;
+      padding: 30px 0 0;
 
-        >.fundo-prof {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            width: 510px;
-            height: 702px;
-            background: transparent url('/assets/images/prof-limpeza.png') 0 0 / cover no-repeat;
-            opacity: 1;
-            background-position: center;
-            background-size: contain;
-            gap: 5px;
-            justify-content: flex-end;
-            padding: 0 0 64px 64px;
-
-            >p {
-                background: #009CC0 0% 0% no-repeat padding-box;
-                border-radius: 4px;
-                font-size: 24px;
-                line-height: 32px;
-                font-weight: 600;
-                padding: 0 10px;
-            }
-        }
+      > .play-video {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+      }
     }
+  }
+
+  > .col-2 {
+    width: 50%;
+
+    > .fundo-prof {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 510px;
+      height: 702px;
+      background: transparent url("/assets/images/prof-limpeza.png") 0 0 / cover
+        no-repeat;
+      opacity: 1;
+      background-position: center;
+      background-size: contain;
+      gap: 5px;
+      justify-content: flex-end;
+      padding: 0 0 64px 64px;
+
+      > p {
+        background: #009cc0 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+        padding: 0 10px;
+      }
+    }
+  }
 }
 
 /* @media only screen and (max-width: 1920px) {
@@ -77,170 +78,214 @@
 } */
 
 .invista-em-voce {
-    margin: 119px 0 101px;
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
+  margin: 119px 0 101px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
 
-    >.col-1 {
-        width: 50%;
+  > .col-1 {
+    width: 50%;
 
-        >h2 {
-            color: #000000;
-            letter-spacing: -1px;
-        }
-
-        >p {
-            color: #000000;
-            padding: 18px 0 39px;
-        }
+    > h2 {
+      color: #000000;
+      letter-spacing: -1px;
     }
 
-    >.col-2 {
-        width: 50%;
-
-        >.btn-explorar-curso {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 63px;
-        }
-
-        >.cards {
-            display: flex;
-            flex-direction: row;
-            column-gap: 16px;
-
-            >div {
-                border: 1px solid #4D4D4D28;
-                border-radius: 21px;
-                opacity: 1;
-                width: 332px;
-                max-height: 300px;
-                display: flex;
-                flex-direction: column;
-                gap: 16px;
-                padding: 46px 34px 44px 45px;
-
-                >img {
-                    width: 62px;
-                    height: 62px;
-                }
-
-                >h3 {
-                    letter-spacing: -0.52px;
-                    color: #000000;
-                    font-weight: bold;
-                }
-
-                >p {
-                    color: #000000;
-                }
-            }
-        }
+    > p {
+      color: #000000;
+      padding: 18px 0 39px;
     }
+  }
+
+  > .col-2 {
+    width: 50%;
+
+    > .btn-explorar-curso {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 63px;
+    }
+
+    > .cards {
+      display: flex;
+      flex-direction: row;
+      column-gap: 16px;
+
+      > div {
+        border: 1px solid #4d4d4d28;
+        border-radius: 21px;
+        opacity: 1;
+        width: 332px;
+        max-height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 46px 34px 44px 45px;
+
+        > img {
+          width: 62px;
+          height: 62px;
+        }
+
+        > h3 {
+          letter-spacing: -0.52px;
+          color: #000000;
+          font-weight: bold;
+        }
+
+        > p {
+          color: #000000;
+        }
+      }
+    }
+  }
 }
 
 .horas {
-    background: #4D4D4D08 0% 0% no-repeat padding-box;
-    border-radius: 27px;
-    opacity: 1;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    padding: 35px 97px 54px 96px;
-    margin-bottom: 87px;
+  background: #4d4d4d08 0% 0% no-repeat padding-box;
+  border-radius: 27px;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding: 35px 97px 54px 96px;
+  margin-bottom: 87px;
 
-    >div {
-
-        >h2,
-        p {
-            color: #000000;
-        }
-
+  > div {
+    > h2,
+    p {
+      color: #000000;
     }
+  }
 }
 
 .metodologia {
-    background: #030032 0% 0% no-repeat padding-box;
-    border-radius: 28px;
-    opacity: 1;
-    display: flex;
-    padding: 82px 87px 0 87px;
-    height: 608px;
-    max-height: 608px;
-    margin-top: 82px;
+  background: #030032 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+  display: flex;
+  padding: 82px 87px 0 87px;
+  height: 608px;
+  max-height: 608px;
+  margin-top: 82px;
 
-    >.col-1 {
-        width: 50%;
+  > .col-1 {
+    width: 50%;
 
-        >h1 {
-            font-size: 55px;
-            font-weight: bold;
-            line-height: 87px;
+    > h1 {
+      font-size: 55px;
+      font-weight: bold;
+      line-height: 87px;
 
-            >span {
-                font-family: 'Corinthia', cursive;
-            }
-        }
-
-        >h3 {
-            padding: 32px 0 22px;
-        }
-
-        >a {
-            margin-top: 41px;
-        }
+      > span {
+        font-family: "Corinthia", cursive;
+      }
     }
 
-    >.col-2 {
-        width: 50%;
-        padding-left: 25px;
-
-        >.fundo-anny {
-            display: flex;
-            position: absolute;
-            background: transparent url(/assets/images/consultoria-anny.png) 0 0 / cover no-repeat;
-            opacity: 1;
-            background-position: center;
-            background-size: contain;
-            height: 680px;
-            width: 580px;
-        }
+    > h3 {
+      padding: 32px 0 22px;
     }
+
+    > a {
+      margin-top: 41px;
+    }
+  }
+
+  > .col-2 {
+    width: 50%;
+    padding-left: 25px;
+
+    > .fundo-anny {
+      display: flex;
+      position: absolute;
+      background: transparent url(/assets/images/consultoria-anny.png) 0 0 /
+        cover no-repeat;
+      opacity: 1;
+      background-position: center;
+      background-size: contain;
+      height: 680px;
+      width: 580px;
+    }
+  }
 }
 
 .consultoria-palestra {
-    margin-top: 94px;
+  margin-top: 94px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+
+  > div {
+    background: #4d4d4d08 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    width: 714px;
+    height: 620px;
+    padding: 73px 105px 79px 103px;
     display: flex;
-    align-items: center;
-    gap: 35px;
+    flex-direction: column;
+    justify-content: space-between;
 
-    >div {
-        background: #4D4D4D08 0% 0% no-repeat padding-box;
-        border-radius: 32px;
-        width: 714px;
-        height: 620px;
-        padding: 73px 105px 79px 103px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        >h2,
-        h3,
-        p {
-            color: #000000;
-        }
-
-        >h2 {
-            margin-top: 16px;
-        }
-
-        >h3 {
-            margin: 22px 0 22px;
-        }
-
-        >p {
-            padding: 22px 0 33px;
-        }
+    > h2,
+    h3,
+    p {
+      color: #000000;
     }
+
+    > h2 {
+      margin-top: 16px;
+    }
+
+    > h3 {
+      margin: 22px 0 22px;
+    }
+
+    > p {
+      padding: 22px 0 33px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .torne-se-expert {
+    max-height: 1500px;
+    height: 1080px;
+    flex-direction: column;
+    padding: 40px 20px;
+
+    > .col-1 {
+      width: 100%;
+
+      > h1 {
+        text-align: center;
+      }
+
+      > h3 {
+        text-align: center;
+      }
+
+      > p {
+        text-align: center;
+      }
+
+      .btn-actions {
+        flex-direction: column;
+        gap: 22px;
+      }
+    }
+
+    > .col-2 {
+      width: 100%;
+
+      > .fundo-prof {
+        width: 100%;
+        position: relative;
+        height: 100%;
+        margin-top: 50px;
+        padding: 0 0 64px 0;
+
+        > p {
+        }
+      }
+    }
+  }
 }
