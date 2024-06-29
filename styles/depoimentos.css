@@ -83,3 +83,41 @@
 .depoimento-card .curso {
     color: #666;
 }
+
+@media only screen and (max-width: 768px) {
+    .sobre-nos {
+        margin: 70px 20px;
+    
+        >.topo {
+          flex-wrap: wrap;
+          justify-content: center;
+    
+          >.setas-navegacao {
+            display: none;
+          }
+        }
+    
+        >.depoimentos-container {
+            overflow: auto;
+
+          >.depoimentos {
+            margin-top: 30px;
+    
+            >.depoimento-card {
+              flex-wrap: wrap;
+              padding: 40px;
+
+              >.col-2 {
+                margin-top: 25px;
+
+                >.info {
+                    > p {
+                        text-align: center;
+                    }
+                }
+              }
+            }
+          }
+        }
+      }
+}
