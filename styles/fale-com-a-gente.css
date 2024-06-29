@@ -13,6 +13,10 @@
 
         >h3 {
             padding: 24px 0;
+
+            &.ligue {
+                padding: 145px 0 29px;
+            }
         }
 
         >h1,
@@ -391,4 +395,54 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .fale-conosco {
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+        gap: 50px;
+        height: auto;
+        max-height: 1200px !important;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+
+            >h1,
+            >h3 {
+                text-align: center;
+            }
+
+            >h3.ligue {
+                padding: 20px 0;
+            }
+
+            >.btn-actions {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 25px;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+
+            >.formulario {
+                padding: 40px 20px;
+
+                >h3 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .sec-page.menus {
+        padding-top: 0;
+    }
 }
