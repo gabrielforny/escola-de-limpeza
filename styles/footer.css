@@ -203,6 +203,29 @@ footer {
         }
     }
 
+    .cursos-footer {
+        margin: 0 20px;
+        margin-top: -220px !important;
+        flex-direction: column;
+
+        >div {
+            width: 75% !important;
+            padding: 40px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            height: auto !important;
+            justify-content: center !important;
+            gap: 30px;
+
+            >h2,
+            >h3 {
+                text-align: center;
+                line-height: 35px;
+            }
+        }
+    }
+
     .menus {
         flex-direction: column;
         margin: 0 20px;

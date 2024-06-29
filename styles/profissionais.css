@@ -75,3 +75,51 @@
 .sobre-nos {
     margin-bottom: 466px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .curso-para-profissional {
+        margin: 0 20px;
+        flex-direction: column;
+        padding: 40px;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+
+            >p {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            >h1,
+            >h2,
+            >h3 {
+                text-align: center;
+            }
+
+            >.btn-actions {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+            padding-left: 0;
+
+            >.fundo-prof {
+                width: 100%;
+                position: relative;
+                height: 100%;
+                margin-top: 30px;
+                padding: 150px 0;
+
+                &.iniciante {
+                    padding: 138px 0;
+                }
+            }
+        }
+    }
+}
