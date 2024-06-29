@@ -245,8 +245,13 @@
   }
 }
 
+.is-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .torne-se-expert {
+    margin: 0 16px;
     max-height: 1500px;
     height: 1080px;
     flex-direction: column;
@@ -284,8 +289,8 @@
         padding: 50px 0 50px 0;
 
         > p {
-            margin-left: 35px;
-            font-size: 14px;
+          margin-left: 35px;
+          font-size: 14px;
         }
       }
     }
@@ -294,6 +299,7 @@
   .invista-em-voce {
     flex-direction: column;
     padding: 0 20px;
+    margin: 80px 0;
 
     > .col-1 {
       width: 100%;
@@ -303,13 +309,106 @@
         line-height: 33px;
       }
 
-      >p {
+      > p {
         text-align: center;
       }
     }
 
     > .col-2 {
       width: 100%;
+
+      > .btn-explorar-curso {
+        justify-content: center;
+      }
+
+      > .cards {
+        flex-wrap: wrap;
+        row-gap: 16px;
+
+        > div {
+          align-items: center;
+
+          > p {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .horas {
+    flex-wrap: wrap;
+    margin: 0 20px;
+    padding: 35px 40px 54px;
+    gap: 50px;
+
+    > div {
+      > h2 {
+        text-align: center;
+        font-size: 35px;
+      }
+
+      > p {
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .nosso-curso {
+    margin: 40px 20px;
+
+    > h2,
+    > p {
+      text-align: center;
+    }
+
+    .no-mobile {
+      display: none;
+    }
+
+    .is-mobile {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      > div {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        > button {
+          width: 50%;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .courses-container {
+      > div {
+        padding: 40px 20px;
+        align-items: center;
+
+        > img {
+          height: 100%;
+        }
+
+        > div {
+          > .info {
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 16px;
+          }
+
+          > h3 {
+            text-align: center;
+          }
+        }
+
+        >a {
+          height: 130px;
+        }
+      }
     }
   }
 }
