@@ -73,3 +73,20 @@
 .faq-item.active .faq-toggle {
     transform: rotate(180deg);
 }
+
+@media only screen and (max-width: 768px) {
+    .faq {
+        >h2 {
+            text-align: center;
+            margin: 0 0 20px 0;
+        }
+
+        >.faq-container {
+            flex-direction: column;
+
+            >.faq-column {
+                width: 100%;
+            }
+        }
+    }
+}
