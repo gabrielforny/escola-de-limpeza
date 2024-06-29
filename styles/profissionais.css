@@ -80,7 +80,9 @@
 @media only screen and (max-width: 768px) {
     .curso-para-profissional {
         margin: 0 20px;
+        display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 40px;
 
         >.col-1 {
