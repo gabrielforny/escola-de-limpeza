@@ -116,7 +116,8 @@
                 margin-top: 30px;
                 padding: 150px 0;
 
-                &.iniciante {
+                &.iniciante,
+                &.empresa {
                     padding: 138px 0;
                 }
             }
