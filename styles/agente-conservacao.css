@@ -267,6 +267,7 @@
 
         >.coluna-img {
             width: 50%;
+
             >img {
                 width: 100%
             }
@@ -388,14 +389,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
 .accordion {
     width: 85%;
     padding: 42px 41px;
@@ -469,4 +462,186 @@
 .accordion-content .icon {
     margin-right: 8px;
     color: #00ADEF;
+}
+
+@media only screen and (max-width: 768px) {
+    .curso-para-profissional {
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >.bread-crumb {
+                flex-wrap: wrap;
+                text-align: center;
+                justify-content: center;
+            }
+
+            >h1 {
+                text-align: center;
+            }
+
+            >.info-curso {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            >.btn-actions {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+            padding-left: 0;
+
+            >.fundo-prof {
+                width: 100%;
+                position: relative;
+                height: 100%;
+                margin-top: 30px;
+                padding: 150px 0;
+            }
+        }
+    }
+
+    .inscricao {
+        margin: 0 20px;
+        height: auto;
+
+        >form {
+            >.campos {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+
+    .treinamento {
+        flex-direction: column;
+        align-items: center;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+
+            >h2 {
+                text-align: center;
+            }
+
+            >.lista {
+                margin: 0 20px;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            >div {
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+
+                >h3 {
+                    text-align: center;
+                }
+
+                >.lista-info {
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .conteudo-curso {
+        margin-top: 50px;
+        margin: 50px 20px;
+
+        >h2 {
+            text-align: center;
+        }
+
+        >.linha {
+            flex-direction: column;
+
+            >.col-1 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                >p {
+                    text-align: center;
+                }
+            }
+
+            >.col-2 {
+                width: 100%;
+
+                >.accordion {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .metodologia {
+        margin: 50px 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        height: auto;
+        max-height: 1500px;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+
+            >h1 {
+                text-align: center;
+                font-size: 32px !important;
+                line-height: 40px !important;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            >.certificado-conclusao {
+                flex-direction: column;
+            }
+
+            >h3,
+            >p {
+                text-align: center;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+            padding-left: 0;
+
+            >.fundo-anny {
+                width: 100%;
+                position: relative;
+                height: 100%;
+                padding: 150px 0;
+            }
+        }
+    }
 }
