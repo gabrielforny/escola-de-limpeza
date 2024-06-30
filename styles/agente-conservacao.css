@@ -511,6 +511,12 @@
                 height: 100%;
                 margin-top: 30px;
                 padding: 150px 0;
+
+                &.seguranca-higienizacao {
+                    width: auto;
+                    height: auto;
+                    padding: 210px;
+                }
             }
         }
     }
