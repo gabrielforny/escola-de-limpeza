@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="styles/depoimentos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
   <a href="https://wa.me/5511930394719?text=Olá!%20Gostaria%20de%20saber%20mais%20informações" style="
         position: fixed;
@@ -66,7 +66,49 @@
       <a href="/palestras.html">Palestras</a>
     </div>
     <a class="btn-fale btn-action-amarelo" href="/fale-com-a-gente.html">Fale com a gente</a>
+    <div class="menu-mobile">
+      <a href="/" class="logo-mobile">
+        <img src="assets/images/logo-escola.svg" alt="logo-escola.svg" />
+      </a>
+      <div class="menu-hamburger" id="menu-hamburger">
+        <i class="fas fa-bars" style="font-size: 30px;"></i>
+      </div>
+    </div>
   </header>
+
+  <div class="off-canvas" id="off-canvas">
+    <div class="off-canvas-content">
+      <a href="#" class="close-btn" id="close-btn">
+        <i class="fas fa-times" style="font-size: 40px;"></i>
+      </a>
+      <div class="off-canvas-menu">
+        <div class="dropdown-mobile">
+          <a class="dropbtn-mobile" href="#">A Escola
+            <img src="assets/icons/arrow-icon.svg" alt="arrow-icon" />
+          </a>
+          <div class="dropdown-content-mobile">
+            <a href="#">Quem Somos</a>
+            <a href="#">Método Anny Rosa</a>
+          </div>
+        </div>
+        <div class="dropdown-mobile">
+          <a class="dropbtn-mobile" href="#">Nossos Cursos
+            <img src="assets/icons/arrow-icon.svg" alt="arrow-icon" />
+          </a>
+          <div class="dropdown-content-mobile">
+            <a href="/para-profissionais.html">Para Profissionais</a>
+            <a href="/para-iniciantes.html">Para Iniciantes</a>
+            <a href="/para-empresas.html">Para Empresas</a>
+            <a href="/consultoria.html">Consultoria Anny Rosa</a>
+            <a href="/palestras.html">Palestras</a>
+          </div>
+        </div>
+        <a href="/consultoria.html">Consultoria</a>
+        <a href="/palestras.html">Palestras</a>
+        <a class="btn-action-amarelo mobile" href="/fale-com-a-gente.html">Fale com a gente</a>
+      </div>
+    </div>
+  </div>
 
   <main class="sec-page">
     <section class="torne-se-expert">
@@ -402,6 +444,7 @@
   <script src="javascript/contadores.js"></script>
   <script src="javascript/cursos.js"></script>
   <script src="javascript/depoimentos.js"></script>
+  <script src="javascript/menu-mobile.js"></script>
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
