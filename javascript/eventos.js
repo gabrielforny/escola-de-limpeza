@@ -1,26 +1,54 @@
 document.addEventListener("DOMContentLoaded", function () {
     const eventos = [
         {
-            "day": "12",
-            "month": "Fevereiro",
-            "title": "Transformação na área de limpeza e higienização",
+            "day": "05",
+            "month": "Julho",
+            "title": " Treinamento exclusivo para empresa",
             "time": "22:10",
-            "organization": "Nome da Empresa"
+            "organization": "São Paulo"
         },
         {
-            "day": "15",
-            "month": "Março",
-            "title": "Inovação em tecnologia",
+            "day": "06",
+            "month": "Julho",
+            "title": " Treinamento exclusivo distribuidor",
+            "time": "22:10",
+            "organization": "Mercotech /SP"
+        },
+        {
+            "day": "01",
+            "month": "Agosto",
+            "title": "webinar exclusivo para distribuidores Mercotech. Tema: Segurança dos Alimentos em Supermercados",
             "time": "14:30",
-            "organization": "Empresa Tech"
+            "organization": "Online"
         },
         {
-            "day": "18",
-            "month": "Março",
-            "title": "Inovação em tecnologia",
+            "day": "17",
+            "month": "Agosto",
+            "title": "Cronograma de treinamento hospitalar Tema NR32",
+            "time": "14:30",
+            "organization": "Serranaa/SP"
+        },
+        {
+            "day": "25",
+            "month": "Agosto",
+            "title": "Cronograma de treinamento hospitalar. Tema Humanização na  Higienização e Lavanderia e NR32 para SND",
             "time": "20:30",
-            "organization": "Empresa Eadae"
-        }
+            "organization": "Catalão/GO"
+        },
+        {
+            "day": "01",
+            "month": "Setembro",
+            "title": "Consultoria de Higienização",
+            "time": "20:30",
+            "organization": "Botucatu/SP"
+        },
+        {
+            "day": "11",
+            "month": "Dezembro",
+            "title": "Assessoria e treinamento a distribuidora de químicos saneantes",
+            "time": "22:10",
+            "organization": "Juiz de fora"
+        },
     ];
 
     const eventosContainer = document.querySelector('.cards-eventos');
