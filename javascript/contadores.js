@@ -33,8 +33,8 @@ function isElementInViewport(el) {
 function animateNumbers() {
     const duration = 2000;
     const endValues = {
-        teoria: 100,
-        teoria2: 100,
+        teoria: 1200,
+        teoria2: 2500,
         teoria3: 100,
         teoria4: 100
     };
