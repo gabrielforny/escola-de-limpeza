@@ -33,9 +33,9 @@ function isElementInViewport(el) {
 function animateNumbers() {
     const duration = 2000;
     const endValues = {
-        info: 100,
-        info2: 20,
-        info3: 100,
+        info: 180,
+        info2: 2,
+        info3: 250,
     };
 
     Object.entries(endValues).forEach(([key, end]) => {
