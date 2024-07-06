@@ -3,15 +3,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
-    $comoAjudar = $_POST['comoAjudar'];
 
     $mensagem = "Nome: $nome\n";
     $mensagem .= "Email: $email\n";
     $mensagem .= "Telefone: $telefone\n";
-    $mensagem .= "Mensagem: $comoAjudar\n";
 
     $destinatario = "gf097@hotmail.com";
-    $assunto = "Formulário - Fale com a gente";
+    $assunto = "Formulário - {curso}";
 
     mb_internal_encoding("UTF-8");
 

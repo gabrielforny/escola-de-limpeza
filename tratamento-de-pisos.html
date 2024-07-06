@@ -16,7 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send/?phone=5534999782117&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    <a href="https://api.whatsapp.com/send/?phone=5534999782117&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0"
+        style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
     z-index:1000;" target="_blank">
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a>
@@ -145,7 +146,8 @@
             </div>
         </section>
         <section class="inscricao" id="form">
-            <form id="contactForm" id="contactForm" method="post" action="send_email_fale_com_a_gente.php">
+            <form id="contactForm" id="contactForm" method="post" action="email_curso.php">
+                <input type="hidden" id="assunto" name="assunto" value="Tratamento de Pisos - para diversos setores">
                 <div class="campos">
                     <input type="text" placeholder="Seu nome*" id="nome" name="nome" required>
                     <input type="email" placeholder="Seu e-mail*" id="email" name="email" required>
@@ -443,7 +445,7 @@
                     <a href="/linkedin" target="_blank">
                         <img src="assets/icons/icon-linkedin.svg" alt="logo-linkedin" class="linkedin" />
                     </a>
-                              <a href="https://www.youtube.com/channel/UCb2lHYghs-XNyfEEbp8qoag" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCb2lHYghs-XNyfEEbp8qoag" target="_blank">
 
                         <img src="assets/icons/icon-youtube.svg" alt="logo-youtube" class="youtube" />
                     </a>
@@ -486,7 +488,9 @@
                 <div class="links">
                     <a href="/fale-com-a-gente">Fale com a gente</a>
                     <a href="/">Perguntas Frequentes</a>
-                    <a class="telefone" href="https://api.whatsapp.com/send/?phone=5534999782117&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0" target="_blank">+55 (34) 999782117</a>
+                    <a class="telefone"
+                        href="https://api.whatsapp.com/send/?phone=5534999782117&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0"
+                        target="_blank">+55 (34) 999782117</a>
                 </div>
             </div>
         </section>
@@ -508,6 +512,10 @@
     <script src="javascript/faq.js"></script>
     <script src="javascript/agente-conservacao.js"></script>
     <script src="javascript/menu-mobile.js"></script>
+    <script src="javascript/contato-curso.js"></script>
+    <script src="https://kit.fontawesome.com/695e725952.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.0.7/imask.min.js"></script>
+    
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             function scrollToSection(event) {
@@ -524,6 +532,20 @@
 
             document.getElementById("explorar-cursos-1").addEventListener("click", scrollToSection);
             document.getElementById("explorar-cursos-2").addEventListener("click", scrollToSection);
+        });
+
+
+        // Script para substituir {curso} no assunto do email
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("contactForm");
+            form.addEventListener("submit", function (event) {
+                const curso = "Tratamento de Pisos - para diversos setores";
+                const subjectField = document.createElement("input");
+                subjectField.setAttribute("type", "hidden");
+                subjectField.setAttribute("name", "subject");
+                subjectField.setAttribute("value", curso);
+                form.appendChild(subjectField);
+            });
         });
     </script>
 
