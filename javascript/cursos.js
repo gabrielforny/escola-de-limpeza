@@ -3,8 +3,8 @@ const coursesData = [
         "titulo": "Agente de Conservação e Limpeza (Do zero ao avançado)",
         "tipo": "profissionais",
         "image": "assets/images/agente-de-conservacao.png",
-        "preco": "R$ 400,00",
-        "desconto": "R$ 200,00",
+        "preco": "Em Breve",
+        "desconto": "Em Breve",
         "nivel": "Avançado",
         "horas": "120 horas",
         "porcentagemDesconto": "50% de desc"
@@ -13,8 +13,8 @@ const coursesData = [
         "titulo": "Tratamento de Pisos (Para diversos setores)",
         "tipo": "profissionais",
         "image": "assets/images/tratamento-de-piso.png",
-        "preco": "R$ 500,00",
-        "desconto": "R$ 250,00",
+        "preco": "Em Breve",
+        "desconto": "Em Breve",
         "nivel": "Avançado",
         "horas": "120 horas",
         "porcentagemDesconto": "50% de desc"
@@ -23,8 +23,8 @@ const coursesData = [
         "titulo": "Segurança e higienização em serviços de assistência à saúde",
         "tipo": "iniciantes",
         "image": "assets/images/seguranca-e-higiene.png",
-        "preco": "R$ 600,00",
-        "desconto": "R$ 300,00",
+        "preco": "Em Breve",
+        "desconto": "Em Breve",
         "nivel": "Essencial",
         "horas": "120 horas",
         "porcentagemDesconto": "50% de desc"
@@ -33,8 +33,8 @@ const coursesData = [
         "titulo": "Otimizando o time operacional de limpeza",
         "tipo": "empresas",
         "image": "assets/images/otimizando-time-operacional.png",
-        "preco": "R$ 800,00",
-        "desconto": "R$ 400,00",
+        "preco": "Em Breve",
+        "desconto": "Em Breve",
         "nivel": "Avançado",
         "horas": "120 horas",
         "porcentagemDesconto": "50% de desc"
@@ -65,7 +65,6 @@ function displayCourses() {
                 <p>PARA ${course.tipo.toUpperCase()}</p>
                 <div class="valores">
                     <h3 class="valor-com-desconto">${course.preco}</h3>
-                    <p class="valor-original">${course.desconto}</p>
                 </div>
             </div>
             <div class="info-curso">
