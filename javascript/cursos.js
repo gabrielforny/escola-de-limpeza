@@ -7,7 +7,8 @@ const coursesData = [
         "desconto": "Em Breve",
         "nivel": "Avançado",
         "horas": "120 horas",
-        "porcentagemDesconto": "50% de desc"
+        "porcentagemDesconto": "50% de desc",
+        "url": "/agente-de-conservação-e-limpeza"
     },
     {
         "titulo": "Tratamento de Pisos (Para diversos setores)",
@@ -17,7 +18,8 @@ const coursesData = [
         "desconto": "Em Breve",
         "nivel": "Avançado",
         "horas": "120 horas",
-        "porcentagemDesconto": "50% de desc"
+        "porcentagemDesconto": "50% de desc",
+        "url": "/tratamento-de-pisos"
     },
     {
         "titulo": "Segurança e higienização em serviços de assistência à saúde",
@@ -27,7 +29,8 @@ const coursesData = [
         "desconto": "Em Breve",
         "nivel": "Essencial",
         "horas": "120 horas",
-        "porcentagemDesconto": "50% de desc"
+        "porcentagemDesconto": "50% de desc",
+        "url": "/seguranca-e-higienizacao"
     },
     {
         "titulo": "Otimizando o time operacional de limpeza",
@@ -37,7 +40,8 @@ const coursesData = [
         "desconto": "Em Breve",
         "nivel": "Avançado",
         "horas": "120 horas",
-        "porcentagemDesconto": "50% de desc"
+        "porcentagemDesconto": "50% de desc",
+        "url": "/otimize-time-operacional"
     }
 ];
 
@@ -83,7 +87,7 @@ function displayCourses() {
             </div>
             <h3>${course.titulo}</h3>
         </div>
-        <a>
+        <a href=${course.url}>
             Conhecer o curso
             <img src="assets/icons/arrow-right.svg" alt="icone-arrow-right"> 
         </a>
