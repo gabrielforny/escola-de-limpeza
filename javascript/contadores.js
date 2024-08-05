@@ -36,7 +36,7 @@ function animateNumbers() {
         teoria: 1200,
         teoria2: 2500,
         teoria3: 100,
-        teoria4: 100
+        teoria4: 1140
     };
 
     Object.entries(endValues).forEach(([key, end]) => {
@@ -44,10 +44,11 @@ function animateNumbers() {
         const element = document.getElementById(key);
 
         const interval = setInterval(() => {
-            element.textContent = start + " +";
+            const suffix = key === 'teoria3' ? " %" : " +";
+            element.textContent = start + suffix;
             start += Math.ceil(end / (duration / 100));
             if (start >= end) {
-                element.textContent = end + " +";
+                element.textContent = end + suffix;
                 clearInterval(interval);
             }
         }, 50);
