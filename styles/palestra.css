@@ -318,3 +318,10 @@
         }
     }
 }
+
+@media only screen and (min-width: 770px) and (max-width: 1366px) {
+    .anny-rosa-consultoria{
+      height: 750px;
+      max-height: 750px;
+    }
+  }

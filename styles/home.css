@@ -248,6 +248,13 @@
   display: none;
 }
 
+@media only screen and (min-width: 770px) and (max-width: 1366px) {
+  .torne-se-expert{
+    height: 810px;
+    max-height: 810px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .torne-se-expert {
     margin: 0 16px;
