@@ -1,28 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
     const faqData = [
         {
-            "question": "Lorem Ipsum is simply dummy text?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."
+            "question": "Quais são os pré-requisitos para se inscrever em um curso?",
+            "answer": "Não há pré-requisitos específicos para a maioria dos cursos oferecidos. No entanto, é recomendado que os candidatos tenham pelo menos o ensino fundamental completo e interesse na área de limpeza profissional."
         },
         {
-            "question": "Lorem Ipsum is simply dummy text?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."
+            "question": "O que é abordado nos cursos de higienização e limpeza?",
+            "answer": "Os cursos geralmente cobrem uma variedade de tópicos, incluindo técnicas de limpeza, uso seguro de produtos químicos, manuseio de equipamentos de limpeza, práticas de sustentabilidade, segurança no trabalho, biossegurança, e normas de vigilância sanitária."
         },
         {
-            "question": "Lorem Ipsum is simply dummy text?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."
+            "question": "Os cursos  são oferecidos online ou presencialmente?",
+            "answer": "A maioria dos cursos são oferecido no formato online. Mas temos módulos presenciais diretamente nas empresas como parte de um treinamento de equipe. . A escolha do formato depende da disponibilidade do aluno e da natureza do curso."
         },
         {
-            "question": "Lorem Ipsum is simply dummy text?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."
+            "question": "Qual tempo médio de duração?",
+            "answer": "A duração dos cursos pode variar. Treinamentos de apenas 01 dia ou semanas, dependendo do conteúdo e da intensidade do curso. Existem cursos rápidos de capacitação e cursos mais aprofundados que abrangem uma formação mais completa."
         },
         {
-            "question": "Lorem Ipsum is simply dummy text?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."
+            "question": "Os cursos fornecem certificado?",
+            "answer": "Sim, a maioria dos cursos profissionalizantes de higienização e limpeza oferece um certificado de conclusão, que pode ser útil para melhorar as oportunidades de emprego e demonstrar competência na área."
         },
         {
-            "question": "Lorem Ipsum is simply dummy text?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."
+            "question": "Quais são as oportunidades de carreira após a conclusão de um curso de higienização e limpeza?",
+            "answer": "Após a conclusão do curso, os participantes podem buscar oportunidades em diversos setores, como saúde (hospitais e clínicas), hotelaria, escolas, indústrias alimentícias, serviços de limpeza profissional, entre outros. O certificado pode ajudar a obter posições como auxiliar de limpeza, supervisor de limpeza, consultor de higiene, entre outros cargos relacionados."
         }
     ];
 
