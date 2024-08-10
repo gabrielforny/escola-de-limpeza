@@ -179,8 +179,8 @@
         margin: 0 20px;
         flex-direction: column;
         padding: 40px;
-        height: 860px;
-        max-height: 860px;
+        height: 700px;
+        max-height: 700px;
 
         >.col-1 {
             width: 100%;
@@ -262,8 +262,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-height: 1200px;
-        height: 1200px;
+        max-height: 1580px;
+        height: 1580px;
 
         >.col-1 {
             width: 100%;
