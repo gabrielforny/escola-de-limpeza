@@ -8,12 +8,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensagem .= "Email: $email\n";
     $mensagem .= "Telefone: $telefone\n";
 
-    $destinatario = "gf097@hotmail.com";
+    $destinatario = "contato@escoladelimpeza.com.br";
     $assunto = "Formulário - {curso}";
+
+    // Cabeçalhos adicionais
+    $headers = "From: $email";
+    $headers .= "Cc: escoladelimpeza@gmail.com";
 
     mb_internal_encoding("UTF-8");
 
-    mb_send_mail($destinatario, $assunto, $mensagem);
+    // Enviar email com cabeçalhos
+    mb_send_mail($destinatario, $assunto, $mensagem, $headers);
 
     exit();
 }
+?>
