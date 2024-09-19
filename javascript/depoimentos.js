@@ -2,7 +2,7 @@ const depoimentos = [
     {
         "nome": "Karla Mendes ",
         "foto": "assets/images/karla-depoimento1.jpg",
-        "texto": "Parabéns ao trabalho realizado em nosso Hospital, com toda certeza foi uma parceria que agradou a todos os nossos colaboradores que participaram do programa, sempre com um conteúdo excelente, aulas maravilhosas e enriquecedoras, hoje podemos garantir a todos que fizemos a melhor escolha, desde o primeiro contato com a escola e as aulas de elevado gabarito, sempre apresentando dinamismo, alegria e muito conhecimento técnico, sempre fazendo a união da teoria à pratica e isso é fantástico! Percebe se que Anny faz tudo com muito amor, cuidado e respeito, o resultado é a excelência em formar os melhores profissionais. Sucesso e obrigado a todos!",
+        "texto": "Parabéns! Sempre com um conteúdo excelente, aulas maravilhosas e enriquecedoras, hoje podemos garantir a todos que fizemos a melhor escolha, desde o primeiro contato com a escola. Fantástico!",
         "rating": 5
     },
     {
