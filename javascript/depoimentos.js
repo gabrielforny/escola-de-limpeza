@@ -1,18 +1,22 @@
 const depoimentos = [
     {
-        "nome": "Matheus Lina",
-        "curso": "Otimizando o time operacional de limpeza",
-        "foto": "assets/images/matheus-lina.png",
-        "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.",
+        "nome": "Karla Mendes ",
+        "foto": "assets/images/karla-depoimento1.jpg",
+        "texto": "Parabéns ao trabalho realizado em nosso Hospital, com toda certeza foi uma parceria que agradou a todos os nossos colaboradores que participaram do programa, sempre com um conteúdo excelente, aulas maravilhosas e enriquecedoras, hoje podemos garantir a todos que fizemos a melhor escolha, desde o primeiro contato com a escola e as aulas de elevado gabarito, sempre apresentando dinamismo, alegria e muito conhecimento técnico, sempre fazendo a união da teoria à pratica e isso é fantástico! Percebe se que Anny faz tudo com muito amor, cuidado e respeito, o resultado é a excelência em formar os melhores profissionais. Sucesso e obrigado a todos!",
         "rating": 5
     },
     {
-        "nome": "Marcia Almeida",
-        "curso": "Otimizando o time operacional de limpeza",
-        "foto": "assets/images/marcia-almeida.png",
-        "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.",
-        "rating": 4
+        "nome": "Angra serviços",
+        "foto": "assets/images/angra-depoimento-3.jpg",
+        "texto": "Estou muito satisfeito com os treinamentos da Escola de Limpeza, nossa parceria com a escola, tem apresentado resultados positivos, comunicação clara, objetiva e certeira! Indico fortemente a Escola. Sempre que precisei, fui bem atendido.",
+        "rating": 5
     },
+    // {
+    //     "nome": "Solange Coordenadora DPC serviços",
+    //     "foto": "assets/images/angra-depoimento-3.jpg",
+    //     "texto": "Nossa empresa DPC só temos que agradecer a escola de limpeza. Conseguimos cocientizar os profissionais da área de limpeza, a importância de se fazer uma limpeza profissional, com métodos seguros, com diluição correta, e a importância de avaliação do serviço a ser executado pra se colocar em prática início meio e fim. Com isso ganhando tempo, satisfação. Com os treinamentos semestral  capacitamos profissionais aptos ao mercado cada vez mais exigente.",
+    //     "rating": 5
+    // },
     // Adicione mais depoimentos aqui
 ];
 
@@ -37,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <div class="info">
                     <p class="texto">${depoimento.texto}</p>
-                    <p class="curso"><span>Curso:</span> ${depoimento.curso}</p>
                     <p class="nome">${depoimento.nome}</p>
                 </div>
             </div>
