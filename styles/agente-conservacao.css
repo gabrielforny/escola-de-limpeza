@@ -67,7 +67,7 @@
 
         >.fundo-prof {
             position: absolute;
-            width: 563px;
+            width: 530px;
             height: 566px;
             background: transparent url('/assets/images/agente-conservacao.png') 0 0 / cover no-repeat;
             opacity: 1;
@@ -75,7 +75,7 @@
             background-size: contain;
 
             &.seguranca-higienizacao {
-                height: 615px;
+                height: 581px;
                 background: transparent url('/assets/images/seguranca-e-higienizaca.png') 0 0 / cover no-repeat;
             }
 
