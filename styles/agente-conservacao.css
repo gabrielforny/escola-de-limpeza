@@ -1,671 +1,671 @@
-.curso-para-profissional {
-    background: #B7B7B728 0% 0% no-repeat padding-box;
-    border-radius: 28px 28px 0px 0px;
-    opacity: 1;
-    display: flex;
-    padding: 82px 87px 99px 87px;
-
-    >.col-1 {
-        width: 50%;
-        padding-right: 30px;
-
-        >.bread-crumb {
-            font-weight: 600;
-            font-size: 14px;
-            color: #000000;
-            margin-bottom: 41px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        >h1 {
-            color: #000000;
-        }
-
-        >.info-curso {
-            display: flex;
-            align-items: center;
-            margin: 30px 0 54px;
-            gap: 27px;
-
-            >p {
-                color: #030032;
-                font-weight: 600;
-                font-size: 20px;
-                display: flex;
-                align-items: center;
-                gap: 7px;
-                line-height: 27px;
-            }
-        }
-
-        >.btn-actions {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-
-            >h3 {
-                letter-spacing: 0px;
-                color: #000000;
-
-                &.preco-real {
-                    text-decoration: line-through;
-                }
-
-                &.desconto {
-                    font-weight: bold;
-                    font-size: 44px;
-                    padding-right: 12px;
-                }
-            }
-        }
-    }
-
-    >.col-2 {
-        width: 50%;
-
-        >.fundo-prof {
-            position: absolute;
-            width: 530px;
-            height: 566px;
-            background: transparent url('/assets/images/agente-conservacao.png') 0 0 / cover no-repeat;
-            opacity: 1;
-            background-position: center;
-            background-size: contain;
-
-            &.seguranca-higienizacao {
-                height: 581px;
-                background: transparent url('/assets/images/seguranca-e-higienizaca.png') 0 0 / cover no-repeat;
-            }
-
-            &.otimizando-time-limpeza {
-                height: 506px;
-                background: transparent url('/assets/images/otimizando-time-limpeza.png') 0 0 / cover no-repeat;
-
-            }
-        }
-    }
-}
-
-.inscricao {
-    height: 196px;
-    background: #030032 0% 0% no-repeat padding-box;
-    border-radius: 0px 0px 24px 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 65px 87px 28px;
-
-    >form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 14px;
-
-        >.campos {
-            display: flex;
-            gap: 16px;
-            align-items: center;
-
-            >input {
-                padding: 15px 30px 15px 30px;
-                width: 196px;
-                background: #FFFFFF 0% 0% no-repeat padding-box;
-                border: 2px solid #F8C51C;
-                border-radius: 10px;
-                opacity: 1;
-                font-size: 18px;
-                font-weight: 600;
-                line-height: 36px;
-                letter-spacing: 0.36px;
-
-                &::placeholder {
-                    font-size: 18px;
-                    font-weight: 600;
-                    line-height: 36px;
-                    letter-spacing: 0.36px;
-                }
-            }
-
-            >button {
-                cursor: pointer;
-                width: 245px;
-                height: 67px;
-                background: #F8C51C 0% 0% no-repeat padding-box;
-                border-radius: 34px;
-                opacity: 1;
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 22px;
-                color: #030032;
-            }
-        }
-
-        >.custom-checkbox {
-            display: flex;
-            align-items: center;
-            gap: 2px;
-            justify-content: center;
-            letter-spacing: 0.28px;
-            color: #FFFFFF;
-
-            >p,
-            >p>a {
-                color: #FFFFFF;
-                font-size: 14px;
-                font-weight: normal;
-
-                >a {
-                    text-decoration: underline;
-                    font-weight: 600;
-                }
-            }
-        }
-    }
-}
-
-.treinamento {
-    margin-top: 95px;
-    gap: 57px;
-    display: flex;
-
-    >.col-1 {
-        width: 50%;
-
-        >h2 {
-            color: #000000;
-            margin-bottom: 49px;
-        }
-
-        >.lista {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-
-            >p {
-                color: #000;
-                display: flex;
-                align-items: center;
-                gap: 17px;
-
-                >img {
-                    width: 35px;
-                    height: 35px;
-                }
-            }
-        }
-    }
-
-    >.col-2 {
-        width: 50%;
-        display: flex;
-        align-items: center;
-        gap: 16px;
-
-        >div {
-            padding: 43px 34px 40px 46px;
-            width: 332px;
-            max-height: 395px;
-            height: 330px;
-            border: 1px solid #4D4D4D28;
-            border-radius: 21px;
-            opacity: 1;
-
-            >h3 {
-                color: #000;
-                font-weight: bold;
-                margin: 40px 0 14px;
-            }
-
-            >.lista-info {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-
-                >p {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    color: #000;
-                }
-            }
-        }
-    }
-}
-
-.conteudo-curso {
-    margin-top: 108px;
-
-    >h2 {
-        color: #000;
-        margin-bottom: 34px;
-    }
-
-    .linha {
-        display: flex;
-        gap: 62px;
-
-        >.col-1 {
-            width: 50%;
-
-            >img {
-                width: 100%;
-                margin-bottom: 40px;
-            }
-
-            >p {
-                color: #000;
-            }
-        }
-    }
-
-    &.otimizando-time {
-        display: flex;
-        gap: 103px;
-
-        >.coluna-img {
-            width: 50%;
-
-            >img {
-                width: 100%
-            }
-
-        }
-
-        >.col-1 {
-            width: 50%;
-
-            >p {
-                color: #000;
-            }
-        }
-    }
-}
-
-.custom-checkbox input[type="checkbox"] {
-    display: none;
-}
-
-.custom-checkbox .checkmark {
-    width: 20px;
-    height: 19px;
-    background-color: transparent;
-    border: 2px solid #FFC107;
-    border-radius: 3px;
-    position: relative;
-    cursor: pointer;
-    margin-right: 8px;
-}
-
-.custom-checkbox input[type="checkbox"]:checked+.checkmark:after {
-    content: '';
-    position: absolute;
-    left: 6.5px;
-    top: 1px;
-    width: 5px;
-    height: 10px;
-    border: solid #FFC107;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-}
-
-.custom-checkbox p {
-    margin: 0;
-}
-
-.custom-checkbox a.politicas {
-    color: #FFC107;
-    text-decoration: none;
-}
-
-.custom-checkbox a.politicas:hover {
-    text-decoration: underline;
-}
-
-.metodologia {
-    background: #030032 0% 0% no-repeat padding-box;
-    border-radius: 28px;
-    opacity: 1;
-    display: flex;
-    padding: 82px 87px 0 87px;
-    height: 550px;
-    max-height: 550px;
-    margin-top: 161px;
-
-    >.col-1 {
-        width: 50%;
-
-        >h1 {
-            font-size: 55px;
-            font-weight: bold;
-            line-height: 87px;
-
-            >span {
-                font-family: 'Corinthia', cursive;
-            }
-        }
-
-        >h3 {
-            padding: 32px 0 22px;
-
-            &.certificado-conclusao {
-                padding: 51px 0 0;
-                color: #009CC0;
-                display: flex;
-                align-items: center;
-                font-size: 23px;
-                line-height: 34px;
-                font-weight: normal;
-                gap: 14px;
-
-                >img {
-                    width: 41px;
-                    height: 41px;
-                }
-            }
-        }
-
-        >a {
-            margin-top: 41px;
-        }
-    }
-
-    >.col-2 {
-        width: 50%;
-        padding-left: 25px;
-
-        >.fundo-anny {
-            display: flex;
-            position: absolute;
-            background: transparent url(/assets/images/consultoria-anny.png) 0 0 / cover no-repeat;
-            opacity: 1;
-            background-position: center;
-            background-size: contain;
-            height: 680px;
-            width: 580px;
-        }
-    }
-}
-
-.accordion {
-    width: 85%;
-    padding: 42px 41px;
-    max-width: 600px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #4D4D4D28;
-    border-radius: 22px;
-
-    >hr {
-        margin: 28px 0 35px;
-        border: 1px solid #4D4D4D28;
-        opacity: 1;
-    }
-}
-
-.accordion-header.active>img {
-    transform: rotate(180deg);
-}
-
-.accordion-header>img {
-    transition: transform 0.3s;
-}
-
-.accordion-header {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-
-    >h3 {
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 30px;
-        letter-spacing: -0.44px;
-        color: #000000;
-    }
-}
-
-.accordion-icon {
-    font-size: 1.5rem;
-    color: #FFC107;
-}
-
-.accordion-content {
-    display: none;
-    padding: 0 16px 16px;
-    flex-direction: column;
-    gap: 17px;
-
-
-    >p {
-        display: flex;
-        align-items: center;
-        gap: 13px;
-        color: #000;
-
-        >img {
-            width: 22px;
-            height: 22px;
-        }
-
-        >span {
-            font-weight: bold;
-            margin-right: -8px;
-        }
-    }
-}
-
-
-.accordion-content .icon {
-    margin-right: 8px;
-    color: #00ADEF;
-}
-
-@media only screen and (max-width: 768px) {
-    .curso-para-profissional {
-        margin: 0 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 40px;
-
-        >.col-1 {
-            width: 100%;
-            padding-right: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            >.bread-crumb {
-                flex-wrap: wrap;
-                text-align: center;
-                justify-content: center;
-            }
-
-            >h1 {
-                text-align: center;
-            }
-
-            >.info-curso {
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            >.btn-actions {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 20px;
-            }
-        }
-
-        >.col-2 {
-            width: 100%;
-            padding-left: 0;
-
-            >.fundo-prof {
-                width: 100%;
-                position: relative;
-                height: 100%;
-                margin-top: 30px;
-                padding: 150px 0;
-
-                &.seguranca-higienizacao,
-                &.otimizando-time-limpeza {
-                    width: auto;
-                    height: auto;
-                    padding: 135px;
-                }
-            }
-        }
-    }
-
-    .inscricao {
-        margin: 0 20px;
-        height: auto;
-
-        >form {
-            >.campos {
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-        }
-    }
-
-    .treinamento {
-        flex-direction: column;
-        align-items: center;
-
-        >.col-1 {
-            width: 100%;
-            padding-right: 0;
-
-            >h2 {
-                text-align: center;
-            }
-
-            >.lista {
-                margin: 0 20px;
-            }
-        }
-
-        >.col-2 {
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-
-            >div {
-                width: 65%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                height: auto;
-
-                >h3 {
-                    text-align: center;
-                }
-
-                >.lista-info {
-                    align-items: center;
-                }
-            }
-        }
-    }
-
-    .conteudo-curso {
-        margin: 50px 20px;
-
-        >h2 {
-            text-align: center;
-        }
-
-        >.linha {
-            flex-direction: column;
-
-            >.col-1 {
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                >p {
-                    text-align: center;
-                }
-            }
-
-            >.col-2 {
-                width: 100%;
-
-                >.accordion {
-                    width: auto;
-                }
-            }
-        }
-
-        &.otimizando-time {
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-
-            >.coluna-img {
-                width: 100%;
-            }
-
-            >.col-1 {
-                width: 100%;
-
-                >p {
-                    text-align: center;
-                }
-            }
-        }
-    }
-
-    .metodologia {
-        margin: 50px 20px;
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        align-items: center;
-        height: auto;
-        max-height: 1500px;
-
-        >.col-1 {
-            width: 100%;
-            padding-right: 0;
-
-            >h1 {
-                text-align: center;
-                font-size: 32px !important;
-                line-height: 40px !important;
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-            }
-
-            >.certificado-conclusao {
-                flex-direction: column;
-            }
-
-            >h3,
-            >p {
-                text-align: center;
-            }
-        }
-
-        >.col-2 {
-            width: 100%;
-            padding-left: 0;
-
-            >.fundo-anny {
-                width: 100%;
-                position: relative;
-                height: 100%;
-                padding: 150px 0;
-            }
-        }
-    }
+.curso-para-profissional {
+    background: #B7B7B728 0% 0% no-repeat padding-box;
+    border-radius: 28px 28px 0px 0px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 99px 87px;
+
+    >.col-1 {
+        width: 50%;
+        padding-right: 30px;
+
+        >.bread-crumb {
+            font-weight: 600;
+            font-size: 14px;
+            color: #000000;
+            margin-bottom: 41px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        >h1 {
+            color: #000000;
+        }
+
+        >.info-curso {
+            display: flex;
+            align-items: center;
+            margin: 30px 0 54px;
+            gap: 27px;
+
+            >p {
+                color: #030032;
+                font-weight: 600;
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                line-height: 27px;
+            }
+        }
+
+        >.btn-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            >h3 {
+                letter-spacing: 0px;
+                color: #000000;
+
+                &.preco-real {
+                    text-decoration: line-through;
+                }
+
+                &.desconto {
+                    font-weight: bold;
+                    font-size: 44px;
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+
+        >.fundo-prof {
+            position: absolute;
+            width: 530px;
+            height: 566px;
+            background: transparent url('/assets/images/agente-conservacao.png') 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+
+            &.seguranca-higienizacao {
+                height: 581px;
+                background: transparent url('/assets/images/seguranca-e-higienizac.png') 0 0 / cover no-repeat;
+            }
+
+            &.otimizando-time-limpeza {
+                height: 506px;
+                background: transparent url('/assets/images/otimizando-time-limpeza.png') 0 0 / cover no-repeat;
+
+            }
+        }
+    }
+}
+
+.inscricao {
+    height: 196px;
+    background: #030032 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 24px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 87px 28px;
+
+    >form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+
+        >.campos {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+
+            >input {
+                padding: 15px 30px 15px 30px;
+                width: 196px;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border: 2px solid #F8C51C;
+                border-radius: 10px;
+                opacity: 1;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 36px;
+                letter-spacing: 0.36px;
+
+                &::placeholder {
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    letter-spacing: 0.36px;
+                }
+            }
+
+            >button {
+                cursor: pointer;
+                width: 245px;
+                height: 67px;
+                background: #F8C51C 0% 0% no-repeat padding-box;
+                border-radius: 34px;
+                opacity: 1;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                color: #030032;
+            }
+        }
+
+        >.custom-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            justify-content: center;
+            letter-spacing: 0.28px;
+            color: #FFFFFF;
+
+            >p,
+            >p>a {
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: normal;
+
+                >a {
+                    text-decoration: underline;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.treinamento {
+    margin-top: 95px;
+    gap: 57px;
+    display: flex;
+
+    >.col-1 {
+        width: 50%;
+
+        >h2 {
+            color: #000000;
+            margin-bottom: 49px;
+        }
+
+        >.lista {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            >p {
+                color: #000;
+                display: flex;
+                align-items: center;
+                gap: 17px;
+
+                >img {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        >div {
+            padding: 43px 34px 40px 46px;
+            width: 332px;
+            max-height: 395px;
+            height: 330px;
+            border: 1px solid #4D4D4D28;
+            border-radius: 21px;
+            opacity: 1;
+
+            >h3 {
+                color: #000;
+                font-weight: bold;
+                margin: 40px 0 14px;
+            }
+
+            >.lista-info {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                >p {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+.conteudo-curso {
+    margin-top: 108px;
+
+    >h2 {
+        color: #000;
+        margin-bottom: 34px;
+    }
+
+    .linha {
+        display: flex;
+        gap: 62px;
+
+        >.col-1 {
+            width: 50%;
+
+            >img {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+
+            >p {
+                color: #000;
+            }
+        }
+    }
+
+    &.otimizando-time {
+        display: flex;
+        gap: 103px;
+
+        >.coluna-img {
+            width: 50%;
+
+            >img {
+                width: 100%
+            }
+
+        }
+
+        >.col-1 {
+            width: 50%;
+
+            >p {
+                color: #000;
+            }
+        }
+    }
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox .checkmark {
+    width: 20px;
+    height: 19px;
+    background-color: transparent;
+    border: 2px solid #FFC107;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+.checkmark:after {
+    content: '';
+    position: absolute;
+    left: 6.5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #FFC107;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.custom-checkbox p {
+    margin: 0;
+}
+
+.custom-checkbox a.politicas {
+    color: #FFC107;
+    text-decoration: none;
+}
+
+.custom-checkbox a.politicas:hover {
+    text-decoration: underline;
+}
+
+.metodologia {
+    background: #030032 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    display: flex;
+    padding: 82px 87px 0 87px;
+    height: 550px;
+    max-height: 550px;
+    margin-top: 161px;
+
+    >.col-1 {
+        width: 50%;
+
+        >h1 {
+            font-size: 55px;
+            font-weight: bold;
+            line-height: 87px;
+
+            >span {
+                font-family: 'Corinthia', cursive;
+            }
+        }
+
+        >h3 {
+            padding: 32px 0 22px;
+
+            &.certificado-conclusao {
+                padding: 51px 0 0;
+                color: #009CC0;
+                display: flex;
+                align-items: center;
+                font-size: 23px;
+                line-height: 34px;
+                font-weight: normal;
+                gap: 14px;
+
+                >img {
+                    width: 41px;
+                    height: 41px;
+                }
+            }
+        }
+
+        >a {
+            margin-top: 41px;
+        }
+    }
+
+    >.col-2 {
+        width: 50%;
+        padding-left: 25px;
+
+        >.fundo-anny {
+            display: flex;
+            position: absolute;
+            background: transparent url(/assets/images/consultoria-anny.png) 0 0 / cover no-repeat;
+            opacity: 1;
+            background-position: center;
+            background-size: contain;
+            height: 680px;
+            width: 580px;
+        }
+    }
+}
+
+.accordion {
+    width: 85%;
+    padding: 42px 41px;
+    max-width: 600px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #4D4D4D28;
+    border-radius: 22px;
+
+    >hr {
+        margin: 28px 0 35px;
+        border: 1px solid #4D4D4D28;
+        opacity: 1;
+    }
+}
+
+.accordion-header.active>img {
+    transform: rotate(180deg);
+}
+
+.accordion-header>img {
+    transition: transform 0.3s;
+}
+
+.accordion-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    >h3 {
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 30px;
+        letter-spacing: -0.44px;
+        color: #000000;
+    }
+}
+
+.accordion-icon {
+    font-size: 1.5rem;
+    color: #FFC107;
+}
+
+.accordion-content {
+    display: none;
+    padding: 0 16px 16px;
+    flex-direction: column;
+    gap: 17px;
+
+
+    >p {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        color: #000;
+
+        >img {
+            width: 22px;
+            height: 22px;
+        }
+
+        >span {
+            font-weight: bold;
+            margin-right: -8px;
+        }
+    }
+}
+
+
+.accordion-content .icon {
+    margin-right: 8px;
+    color: #00ADEF;
+}
+
+@media only screen and (max-width: 768px) {
+    .curso-para-profissional {
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >.bread-crumb {
+                flex-wrap: wrap;
+                text-align: center;
+                justify-content: center;
+            }
+
+            >h1 {
+                text-align: center;
+            }
+
+            >.info-curso {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            >.btn-actions {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+            padding-left: 0;
+
+            >.fundo-prof {
+                width: 100%;
+                position: relative;
+                height: 100%;
+                margin-top: 30px;
+                padding: 150px 0;
+
+                &.seguranca-higienizacao,
+                &.otimizando-time-limpeza {
+                    width: auto;
+                    height: auto;
+                    padding: 135px;
+                }
+            }
+        }
+    }
+
+    .inscricao {
+        margin: 0 20px;
+        height: auto;
+
+        >form {
+            >.campos {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+
+    .treinamento {
+        flex-direction: column;
+        align-items: center;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+
+            >h2 {
+                text-align: center;
+            }
+
+            >.lista {
+                margin: 0 20px;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            >div {
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+
+                >h3 {
+                    text-align: center;
+                }
+
+                >.lista-info {
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .conteudo-curso {
+        margin: 50px 20px;
+
+        >h2 {
+            text-align: center;
+        }
+
+        >.linha {
+            flex-direction: column;
+
+            >.col-1 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                >p {
+                    text-align: center;
+                }
+            }
+
+            >.col-2 {
+                width: 100%;
+
+                >.accordion {
+                    width: auto;
+                }
+            }
+        }
+
+        &.otimizando-time {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            >.coluna-img {
+                width: 100%;
+            }
+
+            >.col-1 {
+                width: 100%;
+
+                >p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .metodologia {
+        margin: 50px 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        height: auto;
+        max-height: 1500px;
+
+        >.col-1 {
+            width: 100%;
+            padding-right: 0;
+
+            >h1 {
+                text-align: center;
+                font-size: 32px !important;
+                line-height: 40px !important;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            >.certificado-conclusao {
+                flex-direction: column;
+            }
+
+            >h3,
+            >p {
+                text-align: center;
+            }
+        }
+
+        >.col-2 {
+            width: 100%;
+            padding-left: 0;
+
+            >.fundo-anny {
+                width: 100%;
+                position: relative;
+                height: 100%;
+                padding: 150px 0;
+            }
+        }
+    }
 }
