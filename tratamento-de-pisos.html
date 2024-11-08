@@ -145,7 +145,7 @@
             </div>
         </section>
         <section class="inscricao" id="form">
-            <form id="contactForm" id="contactForm" method="post" action="email_curso.php">
+            <form id="contactForm" id="contactForm" method="post" action="email_curso.php" onsubmit="window.location.href='https://pay.hotmart.com/D95587814R';">
                 <input type="hidden" id="assunto" name="assunto" value="Tratamento de Pisos - para diversos setores">
                 <div class="campos">
                     <input type="text" placeholder="Seu nome*" id="nome" name="nome" required>
@@ -153,13 +153,12 @@
                     <input type="text" placeholder="Seu telefone*" id="telefone" required name="telefone">
                     <button class="btn-cadastro no-loading move-houver" id="submitBtn">
                         Fazer minha inscrição
-                    </button>
                     <button class="btn-cadastro loading" id="submitBtn" style="display: none;">
                         Enviando formulário...
                         <i class="fa-regular fa-paper-plane"></i>
                     </button>
                 </div>
-                <label class="custom-checkbox">
+                <label class="custom-checkbox" required>
                     <input type="checkbox" id="termos" name="termos">
                     <span class="checkmark"></span>
                     <p>
